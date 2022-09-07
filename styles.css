@@ -9,6 +9,8 @@ body {
     margin: auto;
 }
 
+*, *::before, *::after { box-sizing: border-box;}
+
 .navbar {
     margin-top: 10px ;
     display: flex;
@@ -47,6 +49,7 @@ a {
     border-radius: 180px;
     margin: auto;
     margin-top: 50px;
+    transition: 7.0s;
 }
 
 .name h2 {
@@ -70,6 +73,7 @@ a {
     display: flex;
     flex-direction: row;
     padding: 0px 150px;
+    transition: 12.0s;
 }
 
 .box {
