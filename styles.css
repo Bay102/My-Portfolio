@@ -77,12 +77,11 @@ a {
    
 }
 
-.botButwrapper {
-    margin:  20px 0;
+.buttonsWrapper {
+    margin-top: 50px;
+    gap: 20px;
     display: flex;
-    flex-direction: column;
-    gap: 25px;
-    
+    flex-direction: column;    
 }
 
 .bottomButtons {
@@ -94,6 +93,7 @@ a {
     font-size: 20px;
     text-align: center;
     padding: 10px 0;
+    gap: 10px;
     box-shadow: rgba(250, 250, 250, 0.941) 0px 3px 3px 5px;
 }
 
