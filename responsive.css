@@ -6,13 +6,12 @@
     .grid {
         flex-wrap: wrap;
     }
-
-    .skills h2 {
-        display: flex;
-        flex-wrap: wrap;
-    }
     
     .profilePic {
         max-width: 600px;
+    }
+
+    .botButwrapper {
+        flex-direction: column;
     }
 }  

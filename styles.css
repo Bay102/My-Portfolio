@@ -1,11 +1,10 @@
 body {
     background-color: black ;
     max-width: 1200px;
-    height: 2000px;
-    margin: auto;
-    border: 2px solid white ;
+    height: 100%;
     overflow-x: hidden;
     font-family: copperplate;
+    line-height: 0.6;
 }
 
 a {
@@ -13,14 +12,13 @@ a {
     color: white;
 }
 
-.main-wrapper {
+.pageWrapper {
     background-color: black;
     width: 95%;
     height: fit-content;
     margin: auto;
     border: 2px solid black;
     text-align: center;
-    line-height: 0.6;
 }
 
 .profilePic {
@@ -35,20 +33,25 @@ a {
 
 .name h2 {
     margin-top: 40px;
-    font-size: 40px;
+    font-size: 45px;
     color: white;
-    line-height: 1.9;
+}
+
+.skills {
+    margin: auto;   
 }
 
 .skills h3 {
+    text-align: center;
     color: white;
-    font-size: 22px;
+    font-size: 20px;
 }
 
 .grid {
+    margin: 40px 0;
     display: flex;
     flex-direction: row;
-    gap: 0 px;
+    padding: 0px 150px;
 }
 
 .box {
@@ -56,5 +59,29 @@ a {
     height: fit-content;
     border: 2px solid black;
     margin: auto;
+}
+
+.botButwrapper {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
     
+}
+
+.bottomButtons {
+    border: 2px solid white;
+    border-radius: 5px;
+    width: 250px;
+    height: fit-content;
+    margin: auto;
+    font-size: 25px;
+    text-align: center;
+    padding: 10px 0;
+    
+}
+
+.bottomButtons:hover {
+    background-color: whitesmoke;
+    color: black;
 }
