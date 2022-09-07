@@ -1,0 +1,59 @@
+body {
+    background-color: black ;
+    max-width: 1200px;
+    height: 2000px;
+    margin: auto;
+    border: 2px dashed white ;
+    overflow-x: hidden;
+    font-family: copperplate;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.main-wrapper {
+    background-color: black;
+    width: 95%;
+    height: fit-content;
+    margin: auto;
+    border: 2px solid black;
+    text-align: center;
+    line-height: 0.6;
+}
+
+.profilePic {
+    background-color: white;
+    width: 270px;
+    height: 270px;
+    border: 1px solid black;
+    border-radius: 180px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.name h2 {
+    margin-top: 40px;
+    font-size: 40px;
+    color: white;
+}
+
+.skills h3 {
+    color: white;
+    font-size: 22px;
+}
+
+.grid {
+    display: flex;
+    flex-direction: row;
+    gap: 0 px;
+}
+
+.box {
+    width: fit-content;
+    height: fit-content;
+    border: 2px solid black;
+    margin: auto;
+    
+}
