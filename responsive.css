@@ -1,0 +1,18 @@
+@media  screen and (max-width: 780px) {
+    body {
+        max-width: 780px;
+    }
+
+    .grid {
+        flex-wrap: wrap;
+    }
+
+    .skills h2 {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .profilePic {
+        max-width: 600px;
+    }
+}  

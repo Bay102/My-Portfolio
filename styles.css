@@ -3,7 +3,7 @@ body {
     max-width: 1200px;
     height: 2000px;
     margin: auto;
-    border: 2px dashed white ;
+    border: 2px solid white ;
     overflow-x: hidden;
     font-family: copperplate;
 }
@@ -37,6 +37,7 @@ a {
     margin-top: 40px;
     font-size: 40px;
     color: white;
+    line-height: 1.9;
 }
 
 .skills h3 {
