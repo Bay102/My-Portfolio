@@ -18,13 +18,9 @@ body {
     gap: 15px;
 }
 
-.baycodes {
-    font-size: 25px;
-}
+.baycodes { font-size: 25px; }
         
-.home {
-    margin-left: auto;
-}
+.home {margin-left: auto;}
 
 a {
     text-decoration: none;
@@ -49,7 +45,7 @@ a {
     border-radius: 180px;
     margin: auto;
     margin-top: 50px;
-    transition: 7.0s;
+    transition: 10.0s;
 }
 
 .name h2 {
@@ -58,9 +54,7 @@ a {
     color: white;
 }
 
-.skills {
-    margin: auto;   
-}
+.skills { margin: auto; }
 
 .skills h3 {
     text-align: center;
@@ -68,18 +62,15 @@ a {
     font-size: 20px;
 }
 
-.grid {
+.socialIcons {
     margin: 40px 0;
     display: flex;
     flex-direction: row;
     padding: 0px 150px;
-    transition: 12.0s;
+    transition: 18.0s;
 }
 
-.box {
-    margin: auto;
-   
-}
+.box {margin: auto;}
 
 .buttonsWrapper {
     margin-top: 50px;
