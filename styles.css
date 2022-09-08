@@ -35,6 +35,7 @@ a {
     border: 2px solid black;
     border: 10px;
     text-align: center;
+    animation-duration: 3s;
 }
 
 .profilePic {
@@ -68,6 +69,7 @@ a {
     flex-direction: row;
     padding: 0px 150px;
     transition: 18.0s;
+    animation-duration: 6s;
 }
 
 .box {margin: auto;}
