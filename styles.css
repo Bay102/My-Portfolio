@@ -40,13 +40,12 @@ a {
 
 .profilePic {
     background-color: white;
-    width: 260px;
-    height: 260px;
+    width: 225px;
+    height: 225px;
     border: 1px solid rgb(239, 230, 230);
     border-radius: 180px;
     margin: auto;
     margin-top: 50px;
-    transition: 10.0s;
     animation-duration: 3s;
 }
 
@@ -69,8 +68,7 @@ a {
     display: flex;
     flex-direction: row;
     padding: 0px 150px;
-    transition: 15.0s;
-    animation-duration: 6s;
+    animation-duration: 4s;
 }
 
 .box {margin: auto;}
