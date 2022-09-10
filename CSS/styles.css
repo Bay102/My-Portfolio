@@ -7,6 +7,7 @@ body {
     line-height: 0.6;
     color: white;
     margin: auto;
+    font-weight: 400;
 }
 
 *, *::before, *::after { box-sizing: border-box;}
@@ -71,26 +72,42 @@ a {
     animation-duration: 4s;
 }
 
+.social-icon-header > h4 {
+    font-size: 18px;
+    opacity: 0;
+    width: 75px;
+    height: 30px;
+    position: absolute;
+    bottom: 15px;
+    left: 28px;
+    color: azure;
+    margin: auto;
+}
+
+.social-icon-header > h4:hover {
+    opacity: 1;
+}
+
 .box {margin: auto;}
 
 .buttonsWrapper {
-    margin-top: 50px;
+    margin: 45px auto;
     gap: 20px;
     display: flex;
-    flex-direction: column;    
+    flex-direction: row;    
+    width: 70%;
 }
 
 .bottomButtons {
     border: 2px solid white;
     border-radius: 8px;
-    width: 210px;
+    width: 165px;
     height: fit-content;
     margin: auto;
     font-size: 18px;
     text-align: center;
     padding: 10px 0;
-    gap: 10px;
-    box-shadow: rgba(250, 250, 250, 0.941) 0px 3px 3px 5px;
+    box-shadow: rgba(250, 250, 250, 0.941) 0px 3px 3px 3px;
 }
 
 .bottomButtons:hover {

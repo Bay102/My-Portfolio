@@ -3,6 +3,10 @@
         max-width: 780px;
     }
 
+    .skills h3 {
+        font-size: 16px;
+    }
+
     .socialIcons {
         flex-wrap: wrap;
         padding: 0;
@@ -13,6 +17,9 @@
     }
 
     .buttonsWrapper {
-        flex-direction: column;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 100%;
     }
-}  
+
+    
