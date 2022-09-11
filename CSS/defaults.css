@@ -3,6 +3,12 @@ a {
     color: black;
 }
 
+ul { 
+    text-decoration: none;
+    list-style: none;
+    padding: 0;
+}
+
 h2 {
     margin: 0;
 }

@@ -13,7 +13,8 @@
     }
     
     .profilePic {
-        max-width: 600px;
+        width: 155px;
+        height: 155px;
     }
 
     .buttonsWrapper {
