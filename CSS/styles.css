@@ -39,21 +39,25 @@ a {
     animation-duration: 3s;
 }
 
+.name { font-size: 23px; }
+
+.profile-section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 60%;
+    margin: 100px auto 20px;
+}
+
 .profilePic {
     background-color: white;
     width: 225px;
     height: 225px;
-    border: 1px solid rgb(239, 230, 230);
+    border: 3px solid rgb(239, 230, 230);
     border-radius: 180px;
     margin: auto;
-    margin-top: 50px;
     animation-duration: 3s;
-}
-
-.name h2 {
-    margin-top: 40px;
-    font-size: 50px;
-    color: white;
+   
 }
 
 .skills { margin: auto; }
@@ -65,7 +69,7 @@ a {
 }
 
 .socialIcons {
-    margin-top: 50px;
+    margin-top: 10px;
     display: flex;
     flex-direction: row;
     padding: 0px 150px;
@@ -91,8 +95,8 @@ a {
 .box {margin: auto;}
 
 .buttonsWrapper {
-    margin: 45px auto;
-    gap: 20px;
+    margin: 30px auto;
+    gap: 10px;
     display: flex;
     flex-direction: row;    
     width: 70%;
@@ -101,10 +105,10 @@ a {
 .bottomButtons {
     border: 2px solid white;
     border-radius: 8px;
-    width: 165px;
+    width: 145px;
     height: fit-content;
     margin: auto;
-    font-size: 18px;
+    font-size: 16px;
     text-align: center;
     padding: 10px 0;
     box-shadow: rgba(250, 250, 250, 0.941) 0px 3px 3px 3px;
@@ -113,4 +117,14 @@ a {
 .bottomButtons:hover {
     background-color: whitesmoke;
     color: black;
+    cursor: pointer;
 }
+
+.buttonModals {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0,0,0,0.8);
+    visibility: hidden;
+    cursor: pointer;
+ }
