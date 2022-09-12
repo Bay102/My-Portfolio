@@ -8,8 +8,13 @@
     }
 
     .socialIcons {
+        width: 100%;
         flex-wrap: wrap;
         padding: 0;
+    }
+
+    .profile-section {
+        margin: 25px auto;
     }
     
     .profilePic {
@@ -23,4 +28,11 @@
         width: 100%;
     }
 
-    
+    .bottomButtons {
+        font-size: 12px;
+        width: 125px;
+        padding: 5px auto;
+    }
+
+
+}

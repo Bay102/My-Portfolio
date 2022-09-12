@@ -18,13 +18,15 @@ body {
     margin-top: 10px ;
     gap: 10px;
     align-items: center;
+    font-size: 30px;
 }
 
 .chat { 
     border: 2px solid white;
-    border-radius: 12px;
-    background: #098842;
+    border-radius: 50px;
+    background: #096fff;
     padding: 3px 8px;
+    font-size: 20px;
 
 }
         
@@ -46,14 +48,14 @@ a {
     animation-duration: 3s;
 }
 
-.name { font-size: 23px; }
+.name { font-size: 26px; }
 
 .profile-section {
     display: flex;
     flex-direction: row;
     align-items: center;
     width: 60%;
-    margin: 50px auto 20px;
+    margin: 75px auto 50px auto;
 }
 
 .profilePic {
@@ -64,7 +66,10 @@ a {
     border-radius: 180px;
     margin: auto;
     animation-duration: 3s;
-   
+}
+
+.name h2 {
+    font-size: 1;
 }
 
 .skills { margin: auto; }
@@ -76,11 +81,13 @@ a {
 }
 
 .socialIcons {
-    margin-top: 10px;
+    width: 75%;
+    margin: 35px auto;
     display: flex;
     flex-direction: row;
-    padding: 0px 150px;
+    padding: 0px 200px;
     animation-duration: 4s;
+    justify-content: center;
 }
 
 .social-icon-header > h4 {
@@ -99,7 +106,10 @@ a {
     opacity: 1;
 }
 
-.box {margin: auto;}
+.box {
+    width: 120px;
+    margin: auto;
+}
 
 .buttonsWrapper {
     margin: 30px auto;
@@ -115,7 +125,7 @@ a {
     width: 145px;
     height: fit-content;
     margin: auto;
-    font-size: 16px;
+    font-size: 18px;
     text-align: center;
     padding: 10px 0;
     box-shadow: rgba(250, 250, 250, 0.941) 0px 3px 3px 3px;
