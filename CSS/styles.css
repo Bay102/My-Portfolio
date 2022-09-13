@@ -21,13 +21,19 @@ body {
     font-size: 30px;
 }
 
+.codeBay {
+    font-size: 25px;
+}
+
 .chat { 
     border: 2px solid white;
     border-radius: 50px;
     background: #096fff;
-    padding: 3px 8px;
-    font-size: 20px;
-
+    padding: 10px;
+    font-size: 23px;
+    margin-bottom: 15px;
+    width: fit-content;
+    margin: 25px auto;
 }
         
 .home {margin-left: auto;}
@@ -48,14 +54,14 @@ a {
     animation-duration: 3s;
 }
 
-.name { font-size: 26px; }
+.name { font-size: 25px; }
 
 .profile-section {
     display: flex;
     flex-direction: row;
     align-items: center;
     width: 60%;
-    margin: 75px auto 50px auto;
+    margin: 35px auto;
 }
 
 .profilePic {
@@ -66,10 +72,6 @@ a {
     border-radius: 180px;
     margin: auto;
     animation-duration: 3s;
-}
-
-.name h2 {
-    font-size: 1;
 }
 
 .skills { margin: auto; }
@@ -112,7 +114,7 @@ a {
 }
 
 .buttonsWrapper {
-    margin: 30px auto;
+    margin: 35px auto;
     gap: 10px;
     display: flex;
     flex-direction: row;    
@@ -144,4 +146,49 @@ a {
     background: rgba(0,0,0,0.8);
     visibility: hidden;
     cursor: pointer;
+ }
+
+ .marquee {
+    width: 100%;
+    height: var(--marquee-height);
+    overflow: hidden;
+    margin: 2rem auto;
+    position: relative;
+ }
+ 
+ .marquee-content {
+    list-style: none;
+    display: flex;
+    height: 100%;
+ }
+ 
+ .marquee-content li {
+    width: var(--marquee-elm-width);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-height: 100%;
+    white-space: nowrap;
+    flex-shrink: 0;
+    font-size: calc(var(--marquee-height) * 3 / 4);
+ }
+ 
+ .marquee::before,
+ .marquee::after {
+    position: absolute;
+    height: 100%;
+    width: 10rem;
+    top: 0;
+    content: "";
+    z-index: 1;
+ }
+ 
+ .marquee:before {
+    left: 0;
+    background: linear-gradient(to right, var(--bg) 0%, transparent 100%);
+ }
+ 
+ .marquee:after {
+    right: 0;
+    background: linear-gradient(to left, var(--bg) 0%, transparent 100%);
  }
