@@ -3,6 +3,11 @@
         max-width: 780px;
     }
 
+    .codeBay {
+        margin: 20px;
+    }
+
+
     .skills h3 {
         font-size: 16px;
     }
@@ -32,6 +37,14 @@
         font-size: 12px;
         width: 125px;
         padding: 5px auto;
+    }
+
+    .marquee {
+        width: 100%;
+    }
+
+    .marquee-content li {
+        width: 30%;
     }
 
 
