@@ -2,7 +2,6 @@
     --marquee-width: 100%;
     --marquee-height: 15vh;
     --marquee-elms-displayed: 5;
-    /* --marquee-elms: 10; */
     --marquee-elm-width: calc(var(--marquee-width) / var(--marquee-elms-displayed));
     --marquee-duration-animation : calc(var(--marquee-elms) * 3s);
     --bg: white; 
@@ -31,9 +30,7 @@ body {
     font-size: 30px;
 }
 
-.codeBay {
-    font-size: 25px;
-}
+.codeBay { font-size: 25px; }
 
 .chat { 
     border: 2px solid white;
@@ -66,13 +63,7 @@ a {
 
 .name { font-size: 23px; }
 
-.profile-section {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    width: 60%;
-    margin: 35px auto;
-}
+.profile-section { margin: 25px auto; }
 
 .profilePic {
     background-color: white;
@@ -97,7 +88,7 @@ a {
     margin: 35px auto;
     display: flex;
     flex-direction: row;
-    padding: 0px 200px;
+    padding: 0px 125px;
     animation-duration: 4s;
     justify-content: center;
 }
