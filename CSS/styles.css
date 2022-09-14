@@ -1,3 +1,13 @@
+:root {
+    --marquee-width: 80vw;
+    --marquee-height: 15vh;
+    --marquee-elms-displayed: 5;
+    /* --marquee-elms: 10; */
+    --marquee-elm-width: calc(var(--marquee-width) / var(--marquee-elms-displayed));
+    --marquee-duration-animation : calc(var(--marquee-elms) * 3s);
+    --bg: white; 
+ }
+
 body {
     background-color: black ;
     max-width: 1200px;
@@ -54,7 +64,7 @@ a {
     animation-duration: 3s;
 }
 
-.name { font-size: 25px; }
+.name { font-size: 23px; }
 
 .profile-section {
     display: flex;
@@ -186,15 +196,15 @@ a {
  
  .marquee:before {
     left: 0;
-    background: linear-gradient(to right, var(--bg) 0%, transparent 20%);
+    background: linear-gradient(to right, var(--bg) 0%, transparent 100%);
  }
  
  .marquee:after {
     right: 0;
-    background: linear-gradient(to left, var(--bg) 0%, transparent 20%);
+    background: linear-gradient(to left, var(--bg) 0%, transparent 100%);
  }
-
+ 
  @keyframes scrolling {
-    0% { transform: translateX(0); }
+    10% { transform: translateX(0); }
     100% { transform: translateX(calc(-1 * var(--marquee-elm-width) * var(--marquee-elms))); }
  }
