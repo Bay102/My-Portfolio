@@ -1,5 +1,5 @@
 :root {
-    --marquee-width: 80vw;
+    --marquee-width: 100%;
     --marquee-height: 15vh;
     --marquee-elms-displayed: 5;
     /* --marquee-elms: 10; */
@@ -188,7 +188,7 @@ a {
  .marquee::after {
     position: absolute;
     height: 100%;
-    width: 10rem;
+    width: 4rem;
     top: 0;
     content: "";
     z-index: 1;
