@@ -30,7 +30,12 @@ body {
     font-size: 30px;
 }
 
-.codeBay { font-size: 25px; }
+.codeBay { 
+    font-style: italic;
+    font-size: 18px;
+ }
+
+.name { font-size: 14px; }
 
 .chat { 
     border: 2px solid white;
@@ -43,7 +48,7 @@ body {
     margin: 25px auto;
 }
         
-.home {margin-left: auto;}
+.home { margin-left: auto; }
 
 a {
     text-decoration: none;
@@ -61,7 +66,7 @@ a {
     animation-duration: 3s;
 }
 
-.name { font-size: 23px; }
+
 
 .profile-section { margin: 25px auto; }
 
