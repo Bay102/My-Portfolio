@@ -1,16 +1,10 @@
 @media  screen and (max-width: 780px) {
-    body {
-        max-width: 780px;
-    }
+    body { max-width: 780px; }
 
-    .codeBay {
-        margin: 20px;
-    }
+    .codeBay { margin: 20px }
 
 
-    .skills h3 {
-        font-size: 16px;
-    }
+    .skills h3 { font-size: 20px; }
 
     .socialIcons {
         width: 100%;
@@ -18,9 +12,7 @@
         padding: 0;
     }
 
-    .profile-section {
-        margin: 25px auto;
-    }
+    .profile-section { margin: 25px auto; }
     
     .profilePic {
         width: 155px;
@@ -34,8 +26,8 @@
     }
 
     .bottomButtons {
-        font-size: 12px;
-        width: 125px;
+        font-size: 16px;
+        width: 150px;
         padding: 5px auto;
     }
 

@@ -42,8 +42,8 @@ body {
     border: 2px solid white;
     border-radius: 50px;
     background: #096fff;
-    padding: 10px;
-    font-size: 11px;
+    padding: 12px;
+    font-size: 16px;
     margin-bottom: 15px;
     width: fit-content;
     margin: 25px auto;
@@ -113,7 +113,7 @@ a {
 }
 
 .box {
-    width: 120px;
+    width: 110px;
     margin: auto;
 }
 
