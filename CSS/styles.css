@@ -87,11 +87,10 @@ a {
 }
 
 .socialIcons {
-    width: 75%;
-    margin: .60rem auto;
+    width: 35%;
+    margin: 1.60rem auto;
     display: flex;
     flex-direction: row;
-    padding: 0px 125px;
     animation-duration: 4s;
     justify-content: center;
 }
@@ -119,10 +118,10 @@ a {
 
 .buttonsWrapper {
     margin: 35px auto;
-    gap: 10px;
+    gap: 15px;
     display: flex;
     flex-direction: row;    
-    width: 70%;
+    width: 60%;
 }
 
 .bottomButtons {

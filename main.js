@@ -1,6 +1,5 @@
 
 
-
 const root = document.documentElement; 
 
 const elmsDisplayed = getComputedStyle(root).getPropertyValue('--marquee-elms-displayed');
