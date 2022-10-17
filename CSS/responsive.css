@@ -20,7 +20,8 @@
     }
 
     .buttonsWrapper {
-        flex-direction: row;
+        flex-direction: column;
+        gap: 20px;
         flex-wrap: wrap;
         width: inherit;
     }

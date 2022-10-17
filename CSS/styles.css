@@ -70,18 +70,18 @@ body {
 }
  
 
-.name { font-size: 16px; }
-.by { font-size: 12px ;}
+.name { font-size: 30px; }
+.by { font-size: 20px ;}
 
 .chat { 
     border: 2px solid white;
-    border-radius: 50px;
+    border-radius: 12px;
     background: #096fff;
     padding: 8px;
-    font-size: 16px;
+    font-size: 30px;
     margin-bottom: 15px;
     width: fit-content;
-    margin: 25px auto;
+    margin: auto;
 }
         
 .home { margin-left: auto; }
