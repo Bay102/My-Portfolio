@@ -42,10 +42,10 @@ body {
 
  .code-icon {
     background-color: #da5252;
-    padding: 1.25rem 1.5rem;
+    padding: 2.25rem 2.5rem;
     border-radius: 50rem;
     display: inline-block;
-    margin: 2.5rem;
+    margin: 1.5rem;
     text-align: center;
     color: (var(--color-text));
  }
@@ -75,13 +75,13 @@ body {
 
 .chat { 
     border: 2px solid white;
-    border-radius: 12px;
+    border-radius: 15px;
     background: #096fff;
-    padding: 8px;
-    font-size: 30px;
+    padding: 11px;
+    font-size: 20px;
     margin-bottom: 15px;
     width: fit-content;
-    margin: auto;
+    margin: 14px auto;
 }
         
 .home { margin-left: auto; }
@@ -152,7 +152,7 @@ a {
 }
 
 .buttonsWrapper {
-    margin: 35px auto;
+    margin: 0px auto 20px auto;
     display: flex;
     flex-direction: row;    
     width: 60%;
