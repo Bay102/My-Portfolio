@@ -8,13 +8,13 @@
  }
 
 body {
-    background-color: black ;
+    /* background-color: black ; */
     max-width: 1200px;
     height: 100%;
     overflow-x: hidden;
     font-family: copperplate;
     line-height: 0.6;
-    color: white;
+    /* color:black; */
     margin: auto;
     font-weight: 400;
 }
@@ -47,7 +47,7 @@ body {
     display: inline-block;
     margin: 1.5rem;
     text-align: center;
-    color: (var(--color-text));
+    /* color: (var(--color-text)); */
  }
  
  .code-icon .fa-code {
@@ -75,9 +75,9 @@ body {
 
 .chat { 
     border: 2px solid white;
-    border-radius: 15px;
+    border-radius: 20px;
     background: #096fff;
-    padding: 11px;
+    padding: 9px;
     font-size: 20px;
     margin-bottom: 15px;
     width: fit-content;
@@ -159,7 +159,7 @@ a {
 }
 
 .bottomButtons {
-    border: 2px solid white;
+    border: 2px solid;
     border-radius: 8px;
     width: 110px;
     height: fit-content;
@@ -194,6 +194,7 @@ a {
  }
  
  .marquee-content {
+    margin: 0;
     list-style: none;
     display: flex;
     height: 100%;
@@ -229,6 +230,18 @@ a {
  .marquee:after {
     right: 0;
     background: linear-gradient(to left, var(--bg) 0%, transparent 100%);
+ }
+
+.scroll-text {
+    display: flex;
+    flex-direction: column;
+}
+
+ .skills-text {
+    display: flex;
+    flex-direction: column;
+    font-size: 10px;
+    /* color: black; */
  }
  
  @keyframes scrolling {

@@ -8,7 +8,7 @@
    --border: #383f53;
 }
 
-[data-theme="light"] .hero-bg {
+[data-theme="light"] {
    background: white;
    background-position: center;
    background-repeat: no-repeat;
@@ -16,20 +16,22 @@
 }
 
 [data-theme="dark"] {
-   --bg: #171a23;
+   background-color: black;
+   color: white;
+   /* --bg: #171a23;
    --bg-panel: #f1f1f1;
    --color-headings: #fff;
    --color-text-opacity: rgba(255, 255, 255,0.7);
    --color-text: #fff;
    --color-text-base: #161c2d;
-   --border: #ced4da;
+   --border: #ced4da; */
 }
 
 
 .theme-panel {
    position: fixed;
    right: 0;
-   top: 25%;
+   top: 21%;
    z-index: 100;
    transition: 0.4s;
    transform: translateX(100%);
@@ -83,7 +85,7 @@
 
 .theme-body .theme-tab {
    position: absolute;
-   top: 0;
+   top: 0px;
    transform: translateX(-100%);
    display: flex;
    align-items: center;
