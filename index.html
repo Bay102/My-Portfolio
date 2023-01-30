@@ -4,20 +4,20 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script
-      src="https://kit.fontawesome.com/67890cb4aa.js"
-      crossorigin="anonymous"
-    ></script>
     <link
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
     />
-    <link rel="stylesheet" href="/CSS/themes.css" />
-    <link rel="stylesheet" href="/CSS/defaults.css" />
+    <link rel="stylesheet" href="/CSS/theme.css" />
+    <link rel="stylesheet" href="/CSS/base.css" />
     <link rel="stylesheet" href="/CSS/styles.css" />
-    <link rel="stylesheet" href="/CSS/responsive.css" />
-    <title>codeBay</title>
+    <link rel="stylesheet" href="/CSS/pages.css" />
+    <title>CodeBAY</title>
   </head>
+
   <body>
     <div class="theme-panel">
       <div class="theme-body">
@@ -32,100 +32,551 @@
       </div>
     </div>
 
-    <div class="pageWrapper animate__animated animate__backInUp">
-      <div class="container">
-        <div class="codeBay">
-          <div class="name">
-            <h2>codeBAY <span class="by">by</span> ZakBay</h2>
+    <main class="site-wrapper container">
+      <header class="site-header">
+        <nav class="navbar">
+          <div class="brand-logo">
+            <a href="/"><h2>CodeBAY</h2></a>
           </div>
-      
-          <div class="buttonsWrapper">
-            <div class="bottomButtons">
-              <a href="/pages/comingsoon.html" data-open>Services</a>
+          <div class="navbar-nav">
+            <ul class="ul-defaults-none main-menu">
+              <li class="nav-item">Home</li>
+              <li class="nav-item" data-open="about">About Me</li>
+              <li class="nav-item" data-open="contact">Contact</li>
+            </ul>
+          </div>
+        </nav>
+      </header>
+
+      <!-- Hero Section-->
+      <section class="hero-backround">
+        <div class="container">
+          <div class="hero-content">
+            <div class="code.eat.sleep">
+               <div class="code-icon">
+              <i class="fa fa-code"></i>
             </div>
-            <div class="bottomButtons">
-              <a href="/pages/comingsoon.html">Consulting</a>
+            <h2 class="header-lg">Code. Eat. Sleep</h2>
+            <div class="sub-header">
+              I create meaningful solutions for your brands and products.
+              <br />
+              Give Your customers the best experience as possible!
             </div>
-            <div class="bottomButtons">
-              <a href="/pages/comingsoon.html">Portfolio</a>
+            <div class="btn btn-primary round-pill">
+              <a href="#" data-open="contact">Lets talk now</a>
+            </div>
+            </div>
+            
+            <div class="me">
+               <img src="/Photos/IMG_3285.PNG" alt="">
             </div>
           </div>
-    <div class="chat">
-            <a href="mailto: zak@codebay.tech">Connect</a>
+        </div>
+      </section>
+      <section class="portfolio-section">
+        <div class="container search-container">
+          <label for="search">
+            <input
+              autocomplete="off"
+              id="search"
+              type="text"
+              class="search-input"
+              placeholder="Search..."
+            />
+            <i class="fas fa-search"></i>
+          </label>
+          <ul class="portfolio-filter-nav ul-defaults-none">
+            <li data-filter="all" class="filter-link active">All</li>
+            <li data-filter="web" class="filter-link">Web Development</li>
+            <li data-filter="app" class="filter-link">App Development</li>
+            <li data-filter="ui" class="filter-link">UI Design</li>
+          </ul>
+        </div>
+
+        <div id="cards" class="portfolio-grid">
+          <!-- Store each piece of unique data into an array  -->
+          <div class="portfolio-card" data-item="web" data-open="web-1">
+            <div class="card-body">
+              <img src="" alt="portfolio-icon" />
+              <div class="card-popup-box">
+                <div>Web Development</div>
+                <h3>Food Website</h3>
+              </div>
+            </div>
           </div>
 
-        </div>
-        <div class="hero-content">
-          <div class="code-icon">
-            <i class="fa fa-code"></i>
+          <div class="portfolio-card" data-item="web" data-open="web-2">
+            <div class="card-body">
+              <img src="" alt="portfolio-icon" />
+              <div class="card-popup-box">
+                <div>Web Development</div>
+                <h3>Skate Website</h3>
+              </div>
+            </div>
           </div>
-          <h2 class="header-lg">Code. Eat. Sleep</h2>
-          <div class="sub-header">
-            I create meaningful solutions for your brands and products.
-            <br />
-            Give Your customers the best experience as possible!
+          <div class="portfolio-card" data-item="web" data-open="web-3">
+            <div class="card-body">
+              <img src="" alt="portfolio-icon" />
+              <div class="card-popup-box">
+                <div>Web Development</div>
+                <h3>Gambling Website</h3>
+              </div>
+            </div>
+          </div>
+          <div class="portfolio-card" data-item="app" data-open="app-1">
+            <div class="card-body">
+              <img src="" alt="portfolio-icon" />
+              <div class="card-popup-box">
+                <div>App Development</div>
+                <h3>Jeep Website</h3>
+              </div>
+            </div>
+          </div>
+          <div class="portfolio-card" data-item="app" data-open="app-2">
+            <div class="card-body">
+              <img src="" alt="portfolio-icon" />
+              <div class="card-popup-box">
+                <div>App Development</div>
+                <h3>Game Website</h3>
+                ß
+              </div>
+            </div>
+          </div>
+          <div class="portfolio-card" data-item="app" data-open="app-3">
+            <div class="card-body">
+              <img src="" alt="portfolio-icon" />
+              <div class="card-popup-box">
+                <div>App Development</div>
+                <h3>Money Website</h3>
+              </div>
+            </div>
+          </div>
+          <div class="portfolio-card" data-item="ui" data-open="ui-1">
+            <div class="card-body">
+              <img src="" alt="portfolio-icon" />
+              <div class="card-popup-box">
+                <div>UI Design</div>
+                <h3>UI Design</h3>
+              </div>
+            </div>
+          </div>
+          <div class="portfolio-card" data-item="ui" data-open="ui-2">
+            <div class="card-body">
+              <img src="" alt="portfolio-icon" />
+              <div class="card-popup-box">
+                <div>UI Design</div>
+                <h3>UI Principles</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="reviews">
+        <div class="review-title">What people say</div>
+        <h2 class="header-md">Trusted By Clients</h2>
+        <div class="review-preview">
+          <img src="/Photos/cube.png" alt="cube" />
+        </div>
+
+        <div class="review-carousel">
+          <div class="review-item">
+            <div class="review-text">
+              #1 portfolio Lorem ipsum dolor sit amet, consectetur adipiscing
+              elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            </div>
+            <div class="review-author">
+              <div class="avatar">
+                <img src="" alt="avatar" />
+              </div>
+              <div class="details">
+                <div class="name">Zak Bay</div>
+                <div class="company">Skate World Wide</div>
+              </div>
+            </div>
+          </div>
+          <div class="review-item">
+            <div class="review-text">
+              #2 portfolio Lorem ipsum dolor sit amet, consectetur adipiscing
+              elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            </div>
+            <div class="review-author">
+              <div class="avatar">
+                <img src="" alt="avatar" />
+              </div>
+              <div class="details">
+                <div class="name">John Doe</div>
+                <div class="company">Skate World Wide</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="review-item">
+            <div class="review-text">
+              #3 portfolio Lorem ipsum dolor sit amet, consectetur adipiscing
+              elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            </div>
+            <div class="review-author">
+              <div class="avatar">
+                <img src="" alt="avatar" />
+              </div>
+              <div class="details">
+                <div class="name">Jane Doe</div>
+                <div class="company">Snowplace</div>
+              </div>
+            </div>
+          </div>
+          <div class="review-item">
+            <div class="review-text">
+              #4 portfolio Lorem ipsum dolor sit amet, consectetur adipiscing
+              elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            </div>
+            <div class="review-author">
+              <div class="avatar">
+                <img src="" alt="avatar" />
+              </div>
+              <div class="details">
+                <div class="name">Jack Doe</div>
+                <div class="company">Gun Palace</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="slide-ctrl-container">
+          <button>
+            <i class="fas fa-arrow-left"></i>
+          </button>
+          <button>
+            <i class="fas fa-arrow-right"></i>
+          </button>
+        </div>
+      </section>
+
+      <!-- Modals-->
+      <!-- About Page Modal-->
+      <div
+        id="about"
+        class="full-site-modal page-block"
+        data-animation="zoomInOut"
+      >
+        <div class="container-fluid">
+          <header class="modal-header">
+            <h3>ABOUT PAGE</h3>
+            <i class="fas fa-times" data-close></i>
+          </header>
+          <div class="modal-body">
+            <div class="img-wrapper">
+              <img src="" alt="headshot" />
+            </div>
+            <div class="about-text">
+              <h2 class="header-md">Zak Bay</h2>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam,
+              </p>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam,
+              </p>
+              <div class="contact-me-block">Email Me</div>
+              <a href="mailto: bayscodes@gmail.com">bayscodes@gmail.com</a>
+            </div>
+          </div>
+          <div class="marquee">
+            <ul class="marquee-content">
+              <li><i class="fab fa-github"></i></li>
+              <li><i class="fab fa-codepen"></i></li>
+              <li><i class="fab fa-dev"></i></li>
+              <li><i class="fab fa-react"></i></li>
+              <li><i class="fab fa-vuejs"></i></li>
+              <li><i class="fab fa-angular"></i></li>
+              <li><i class="fab fa-node"></i></li>
+              <li><i class="fab fa-aws"></i></li>
+              <li><i class="fab fa-docker"></i></li>
+              <li><i class="fab fa-android"></i></li>
+            </ul>
           </div>
         </div>
       </div>
 
-      <div class="icons">Social Links</div>
-      <div class="socialIcons animate__animated animate__rollIn">
-        <div class="box1 box">
-          <a href="https://www.linkedin.com/in/zakbay">
-            <i class="fa-brands fa-5x fa-linkedin"></i>
-          </a>
-          <div class="social-icon-header">
-            <h4>LinkedIn</h4>
+      <!-- Contact Page Modal-->
+      <div
+        id="contact"
+        class="full-site-modal page-block"
+        data-animation="zoomInOut"
+      >
+        <div class="container-fluid">
+          <header class="modal-header">
+            <h3>Contact PAGE</h3>
+            <i class="fas fa-times" data-close></i>
+          </header>
+          <div class="modal-body">
+            <h2 class="header-md">Zak Bay</h2>
+            <div>Have a question or project?</div>
+            <div>I will reply within 48 hours</div>
+          </div>
+          <form class="folio-form">
+            <input
+              class="form-control"
+              name="name"
+              type="text"
+              placeholder="Name"
+            />
+            <input
+              class="form-control"
+              name="email"
+              type="email"
+              placeholder="Email"
+            />
+            <input
+              class="form-control"
+              name="subject"
+              type="text"
+              placeholder="subject"
+            />
+            <textarea
+              class="form-control"
+              name="message"
+              cols="30"
+              rows="3"
+              placeholder="Write your message..."
+            ></textarea>
+            <input type="submit" value="send" class="form-btn btn" />
+          </form>
+        </div>
+      </div>
+
+      <!--Popup Modals-->
+
+      <!-- place unique data into an array -->
+      <div id="web-1" class="modal" data-animation="slideInOutTop">
+        <div class="modal-dialog">
+          <header class="modal-header">
+            <h3>Web Project 1</h3>
+            <i class="fas fa-times" data-close></i>
+          </header>
+          <div class="modal-body">
+            <div class="img-wrapper">
+              <img src="" alt="portfolio image" />
+            </div>
+            <div class="text-wrapper">
+              <p><strong>My first awesome website</strong></p>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat.
+              </p>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat.
+              </p>
+            </div>
           </div>
         </div>
-        <div class="box2 box">
-          <a href="https://github.com/Bay102">
-            <i class="fa-brands fa-5x fa-square-github"></i>
-          </a>
-        </div>
-        <div class="box3 box">
-          <a href="">
-            <i class="fa-brands fa-5x fa-square-instagram"></i>
-          </a>
+      </div>
+      <div id="web-2" class="modal" data-animation="slideInOutTop">
+        <div class="modal-dialog">
+          <header class="modal-header">
+            <h3>Web Project 1</h3>
+            <i class="fas fa-times" data-close></i>
+          </header>
+          <div class="modal-body">
+            <div class="img-wrapper">
+              <img src="" alt="portfolio image" />
+            </div>
+            <div class="text-wrapper">
+              <p><strong>My first awesome website</strong></p>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat.
+              </p>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat.
+              </p>
+            </div>
+          </div>
         </div>
       </div>
-      <div class="tools">Languages & Tools</div>
-      <div class="marquee">
-        <ul class="marquee-content">
-          <li>
-            <i class="fab fa-github"><div class="skills-text">GitHub</div></i>
-          </li>
-          <li>
-            <i class="fab fa-codepen"><div class="skills-text">CodePen</div></i>
-          </li>
-          <li>
-            <i class="fa-brands fa-js"
-              ><div class="skills-text">Javascript</div></i
-            >
-          </li>
-          <li>
-            <i class="fab fa-react"><div class="skills-text">React</div></i>
-          </li>
-          <!-- <li><i class=" fab fa-vuejs"></i></li> -->
-          <li><i class="fa-brands fa-git"></i></li>
-          <li><i class="fab fa-node"></i></li>
-          <li>
-            <i class="fa-brands fa-css3-alt"
-              ><div class="skills-text">CSS3</div></i
-            >
-          </li>
-          <li>
-            <i class="fa-brands fa-html5"
-              ><div class="skills-text">HTML5</div></i
-            >
-          </li>
-        </ul>
+      <div id="web-3" class="modal" data-animation="slideInOutTop">
+        <div class="modal-dialog">
+          <header class="modal-header">
+            <h3>Web Project 3</h3>
+            <i class="fas fa-times" data-close></i>
+          </header>
+          <div class="modal-body">
+            <div class="img-wrapper">
+              <img src="" alt="portfolio image" />
+            </div>
+            <div class="text-wrapper">
+              <p><strong>My first awesome website</strong></p>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat.
+              </p>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat.
+              </p>
+            </div>
+          </div>
+        </div>
       </div>
-    </div>
-
-    <!--Button Modals-->
+      <div id="app-1" class="modal" data-animation="slideInOutTop">
+        <div class="modal-dialog">
+          <header class="modal-header">
+            <h3>App Project 1</h3>
+            <i class="fas fa-times" data-close></i>
+          </header>
+          <div class="modal-body">
+            <div class="img-wrapper">
+              <img src="" alt="portfolio image" />
+            </div>
+            <div class="text-wrapper">
+              <p><strong>My first awesome website</strong></p>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat.
+              </p>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="app-2" class="modal" data-animation="slideInOutTop">
+        <div class="modal-dialog">
+          <header class="modal-header">
+            <h3>App Project 2</h3>
+            <i class="fas fa-times" data-close></i>
+          </header>
+          <div class="modal-body">
+            <div class="img-wrapper">
+              <img src="" alt="portfolio image" />
+            </div>
+            <div class="text-wrapper">
+              <p><strong>My first awesome website</strong></p>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat.
+              </p>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="app-3" class="modal" data-animation="slideInOutTop">
+        <div class="modal-dialog">
+          <header class="modal-header">
+            <h3>App project 3</h3>
+            <i class="fas fa-times" data-close></i>
+          </header>
+          <div class="modal-body">
+            <div class="img-wrapper">
+              <img src="" alt="portfolio image" />
+            </div>
+            <div class="text-wrapper">
+              <p><strong>My first awesome website</strong></p>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat.
+              </p>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="ui-1" class="modal" data-animation="slideInOutTop">
+        <div class="modal-dialog">
+          <header class="modal-header">
+            <h3>UI project 1</h3>
+            <i class="fas fa-times" data-close></i>
+          </header>
+          <div class="modal-body">
+            <div class="img-wrapper">
+              <img src="" alt="portfolio image" />
+            </div>
+            <div class="text-wrapper">
+              <p><strong>My first awesome website</strong></p>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat.
+              </p>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="ui-2" class="modal" data-animation="slideInOutTop">
+        <div class="modal-dialog">
+          <header class="modal-header">
+            <h3>UI Project 2</h3>
+            <i class="fas fa-times" data-close></i>
+          </header>
+          <div class="modal-body">
+            <div class="img-wrapper">
+              <img src="" alt="portfolio image" />
+            </div>
+            <div class="text-wrapper">
+              <p><strong>My first awesome website</strong></p>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat.
+              </p>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
 
     <script src="/main.js"></script>
-    <!-- <script src="/theme.js"></script> -->
+    <script src="/carousel.js"></script>
   </body>
 </html>
