@@ -128,7 +128,7 @@
  .me img {
     width: 100%;
  }
- 
+
  .modal {
     display: flex;
     justify-content: center;
@@ -171,6 +171,7 @@
  .modal.is-visible {
     visibility: visible;
     opacity: 1;
+ 
  }
  
  .modal-header {
@@ -301,6 +302,14 @@
  .portfolio-filter-nav .filter-link.active {
     color: #495fef;
  
+ }
+
+
+
+ .portfolioTiles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
  }
  
  .portfolio-grid {
