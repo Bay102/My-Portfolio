@@ -170,3 +170,12 @@ for (const elm of closeService) {
       this.parentElement.parentElement.parentElement.classList.remove(isVisible)
    })
 }
+
+const elmsDisplayed = getComputedStyle(root).getPropertyValue('--marquee-elms-displayed');
+const marqueeContent = document.querySelector('ul.marquee-content');
+
+root.style.setProperty('--marquee-elms', marqueeContent.children.length);
+
+for (let i = 0; i < elmsDisplayed; i += 1) {
+   marqueeContent.appendChild(marqueeContent.children[i].cloneNode(true));
+}

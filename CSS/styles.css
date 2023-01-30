@@ -119,6 +119,7 @@
     text-align: center;
     padding: 5.5rem 0;
     gap: 20px;
+    justify-content: flex-end;
  }
  
  .me {
@@ -126,7 +127,7 @@
  }
  
  .me img {
-    width: 100%;
+    width: 75%;
  }
 
  .modal {
@@ -398,6 +399,8 @@
     margin: 3rem 0;
     overflow: hidden;
  }
+
+ 
  
  .reviews .review-title {
     font-size: 18px;
@@ -420,6 +423,8 @@
  }
  
  .review-carousel {
+    position: relative;
+    left: -226px;
     display: flex;
     justify-content: center;
     height: 250px;
