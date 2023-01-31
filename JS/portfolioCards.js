@@ -2,23 +2,23 @@ const cardTiles = [
    {
       item: "bark",
       open: "bark",
-      image: "" ,
+      image: "/Photos/Screen Shot 2023-01-30 at 6.14.31 AM.png" ,
       div: "Bark!" ,
       h3: "Doggie Adoption App",
     },
     {
-      item: "bark",
-      open: "bark",
-      image: "" ,
-      div: "Bark!" ,
-      h3: "Doggie Adoption App",
+      item: "NancysPetCare",
+      open: "nancys",
+      image: "Photos/Screen Shot 2023-01-30 at 6.51.36 AM.png" ,
+      div: "NancysPetCare" ,
+      h3: "Pet Care WebApp",
     },
     {
-      item: "bark",
-      open: "bark",
-      image: "" ,
+      item: "EmojiSlots",
+      open: "emoji",
+      image: "Photos/Screen Shot 2023-01-30 at 6.42.21 AM.png" ,
       div: "Bark!" ,
-      h3: "Doggie Adoption App",
+      h3: "Emoji Slot Machine",
     },
     {
       item: "bark",
@@ -84,7 +84,7 @@ const eachCard = document.querySelector(".portfolioPopups"); console.log(eachCar
 const serviceCards = [
   {
     id: "bark",
-    h3: "HELLO ",
+    h3: "",
     image: "",
     description: `<p><strong></strong></p>
    <p></p>
@@ -92,16 +92,16 @@ const serviceCards = [
    `,
   },
   {
-   id: "",
-   h3: "",
-   image: "",
+   id: "nancys",
+   h3: "Pet Care App",
+   image: "Photos/Screen Shot 2023-01-30 at 6.51.36 AM.png",
    description: `<p><strong></strong></p>
   <p></p>
   <p></p> 
   `,
  },
  {
-   id: "",
+   id: "emoji",
    h3: "",
    image: "",
    description: `<p><strong></strong></p>

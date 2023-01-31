@@ -11,6 +11,7 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link rel="stylesheet" href="/CSS/loadingScreen.css" />
     <link rel="stylesheet" href="/CSS/themes.css" />
     <link rel="stylesheet" href="/CSS/base.css" />
     <link rel="stylesheet" href="/CSS/styles.css" />
@@ -66,7 +67,6 @@
                 <a href="#" data-open="contact">Lets talk now</a>
               </div>
             </div>
-
             <div class="me">
               <img src="/Photos/IMG_3285.PNG" alt="" />
             </div>
@@ -93,9 +93,7 @@
             <li data-filter="ui" class="filter-link">UI Design</li>
           </ul>
         </div>
-
         <div class="portfolioTiles"></div>
-
         <div class="portfolioPopups"></div>
       </section>
 
@@ -105,10 +103,7 @@
         <div class="review-preview">
           <img src="/Photos/cube.png" alt="cube" />
         </div>
-
         <div class="review-carousel"></div>
-
-         
         <div class="slide-ctrl-container">
           <button>
             <i class="fas fa-arrow-left"></i>
@@ -120,6 +115,7 @@
       </section>
 
       <!-- Modals-->
+
       <!-- About Page Modal-->
       <div
         id="about"
@@ -215,237 +211,42 @@
         </div>
       </div>
 
-      <!--Popup Modals-->
-
-      <!-- place unique data into an array -->
-      <div id="web-1" class="modal" data-animation="slideInOutTop">
-        <div class="modal-dialog">
-          <header class="modal-header">
-            <h3>Web Project 1</h3>
-            <i class="fas fa-times" data-close></i>
-          </header>
-          <div class="modal-body">
-            <div class="img-wrapper">
-              <img src="" alt="portfolio image" />
-            </div>
-            <div class="text-wrapper">
-              <p><strong>My first awesome website</strong></p>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat.
-              </p>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat.
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div id="web-2" class="modal" data-animation="slideInOutTop">
-        <div class="modal-dialog">
-          <header class="modal-header">
-            <h3>Web Project 1</h3>
-            <i class="fas fa-times" data-close></i>
-          </header>
-          <div class="modal-body">
-            <div class="img-wrapper">
-              <img src="" alt="portfolio image" />
-            </div>
-            <div class="text-wrapper">
-              <p><strong>My first awesome website</strong></p>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat.
-              </p>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat.
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div id="web-3" class="modal" data-animation="slideInOutTop">
-        <div class="modal-dialog">
-          <header class="modal-header">
-            <h3>Web Project 3</h3>
-            <i class="fas fa-times" data-close></i>
-          </header>
-          <div class="modal-body">
-            <div class="img-wrapper">
-              <img src="" alt="portfolio image" />
-            </div>
-            <div class="text-wrapper">
-              <p><strong>My first awesome website</strong></p>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat.
-              </p>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat.
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div id="app-1" class="modal" data-animation="slideInOutTop">
-        <div class="modal-dialog">
-          <header class="modal-header">
-            <h3>App Project 1</h3>
-            <i class="fas fa-times" data-close></i>
-          </header>
-          <div class="modal-body">
-            <div class="img-wrapper">
-              <img src="" alt="portfolio image" />
-            </div>
-            <div class="text-wrapper">
-              <p><strong>My first awesome website</strong></p>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat.
-              </p>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat.
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div id="app-2" class="modal" data-animation="slideInOutTop">
-        <div class="modal-dialog">
-          <header class="modal-header">
-            <h3>App Project 2</h3>
-            <i class="fas fa-times" data-close></i>
-          </header>
-          <div class="modal-body">
-            <div class="img-wrapper">
-              <img src="" alt="portfolio image" />
-            </div>
-            <div class="text-wrapper">
-              <p><strong>My first awesome website</strong></p>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat.
-              </p>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat.
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div id="app-3" class="modal" data-animation="slideInOutTop">
-        <div class="modal-dialog">
-          <header class="modal-header">
-            <h3>App project 3</h3>
-            <i class="fas fa-times" data-close></i>
-          </header>
-          <div class="modal-body">
-            <div class="img-wrapper">
-              <img src="" alt="portfolio image" />
-            </div>
-            <div class="text-wrapper">
-              <p><strong>My first awesome website</strong></p>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat.
-              </p>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat.
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div id="ui-1" class="modal" data-animation="slideInOutTop">
-        <div class="modal-dialog">
-          <header class="modal-header">
-            <h3>UI project 1</h3>
-            <i class="fas fa-times" data-close></i>
-          </header>
-          <div class="modal-body">
-            <div class="img-wrapper">
-              <img src="" alt="portfolio image" />
-            </div>
-            <div class="text-wrapper">
-              <p><strong>My first awesome website</strong></p>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat.
-              </p>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat.
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div id="ui-2" class="modal" data-animation="slideInOutTop">
-        <div class="modal-dialog">
-          <header class="modal-header">
-            <h3>UI Project 2</h3>
-            <i class="fas fa-times" data-close></i>
-          </header>
-          <div class="modal-body">
-            <div class="img-wrapper">
-              <img src="" alt="portfolio image" />
-            </div>
-            <div class="text-wrapper">
-              <p><strong>My first awesome website</strong></p>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat.
-              </p>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat.
-              </p>
-            </div>
-          </div>
+      <!-- Loading Screen -->
+      <div class="loading-screen">
+        <div class="spinner">
+          <h1 class="jt --debug">
+            <span class="jt__row">
+              <span class="jt__text">
+                <i class="load-icon fa-sharp fa-solid fa-code"></i>
+                <div class="loadingBay">codeBAY</div>
+              </span>
+            </span>
+            <span class="jt__row jt__row--sibling" aria-hidden="true">
+              <span class="jt__text">
+                <i class="load-icon fa-sharp fa-solid fa-code"></i>
+                <div class="loadingBay">codeBAY</div>
+              </span>
+            </span>
+            <span class="jt__row jt__row--sibling" aria-hidden="true">
+              <span class="jt__text">
+                <i class="load-icon fa-sharp fa-solid fa-code "></i>
+                <div class="loadingBay">codeBAY</div>
+              </span>
+            </span>
+            <span class="jt__row jt__row--sibling" aria-hidden="true">
+              <span class="jt__text">
+                <i class="load-icon fa-sharp fa-solid fa-code"></i>
+                <div class="loadingBay">codeBAY</div>
+              </span>
+            </span>
+          </h1>
         </div>
       </div>
     </main>
-    <script src="/JS/portfolioCards.js"></script>
-    <script src="/JS/main.js"></script>
-    <!-- <script src="/JS/carousel.js"></script> -->
-    <script src="/JS/reviewCards.js"></script>
   </body>
+
+  <script src="/JS/loadingScreen.js"></script>
+  <script src="/JS/portfolioCards.js"></script>
+  <script src="/JS/main.js"></script>
+  <script src="/JS/reviewCards.js"></script>
 </html>
