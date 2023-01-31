@@ -119,17 +119,17 @@ for (const elm of closeModal) { // close modal buttons
 
 
    // Search Box 
-   searchBox.addEventListener('keyup', (event) => {
-      const searchInput = event.target.value.toLowerCase().trim();
+   // searchBox.addEventListener('keyup', (event) => {
+   //    const searchInput = event.target.value.toLowerCase().trim();
       
-      servicesItems.forEach((card) => {
-         if (card.dataset.item.includes(searchInput)) {
-            card.style.display = 'block';
-         } else {
-            card.style.display = 'none'
-         }
-      })
-   })
+   //    servicesItems.forEach((card) => {
+   //       if (card.dataset.item.includes(searchInput)) {
+   //          card.style.display = 'block';
+   //       } else {
+   //          card.style.display = 'none'
+   //       }
+   //    })
+   // })
 
 
    // filtering loop

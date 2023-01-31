@@ -1,68 +1,67 @@
 const cardTiles = [
-   {
-      item: "bark",
-      open: "bark",
-      image: "/Photos/Screen Shot 2023-01-30 at 6.14.31 AM.png" ,
-      div: "Bark!" ,
-      h3: "Doggie Adoption App",
-    },
-    {
-      item: "NancysPetCare",
-      open: "nancys",
-      image: "Photos/Screen Shot 2023-01-30 at 6.51.36 AM.png" ,
-      div: "NancysPetCare" ,
-      h3: "Pet Care WebApp",
-    },
-    {
-      item: "EmojiSlots",
-      open: "emoji",
-      image: "Photos/Screen Shot 2023-01-30 at 6.42.21 AM.png" ,
-      div: "Bark!" ,
-      h3: "Emoji Slot Machine",
-    },
-    {
-      item: "bark",
-      open: "bark",
-      image: "" ,
-      div: "Bark!" ,
-      h3: "Doggie Adoption App",
-    },
-    {
-      item: "bark",
-      open: "bark",
-      image: "" ,
-      div: "Bark!" ,
-      h3: "Doggie Adoption App",
-    },
-    {
-      item: "bark",
-      open: "bark",
-      image: "" ,
-      div: "Bark!" ,
-      h3: "Doggie Adoption App",
-    },
-    {
-      item: "bark",
-      open: "bark",
-      image: "" ,
-      div: "Bark!" ,
-      h3: "Doggie Adoption App",
-    },
-    {
-      item: "bark",
-      open: "bark",
-      image: "" ,
-      div: "Bark!" ,
-      h3: "Doggie Adoption App",
-    },
-]
+  {
+    item: "bark",
+    open: "bark",
+    image: "/Photos/Screen Shot 2023-01-30 at 6.14.31 AM.png",
+    div: "Javascript w/ API",
+    h3: "Dog Adoption App",
+  },
+  {
+    item: "NancysPetCare",
+    open: "nancys",
+    image: "Photos/Screen Shot 2023-01-30 at 6.51.36 AM.png",
+    div: "Javascript",
+    h3: "Pet Care App",
+  },
+  {
+    item: "EmojiSlots",
+    open: "emoji",
+    image: "Photos/Screen Shot 2023-01-30 at 6.42.21 AM.png",
+    div: "React",
+    h3: "Slot Machine",
+  },
+  {
+    item: "debtClac",
+    open: "debtCalc",
+    image: "Photos/Screen Shot 2023-01-31 at 8.16.40 AM.png",
+    div: "React",
+    h3: "Debt Calculator",
+  },
+  {
+    item: "",
+    open: "",
+    image: "",
+    div: "",
+    h3: "",
+  },
+  {
+    item: "",
+    open: "",
+    image: "",
+    div: "",
+    h3: "",
+  },
+  {
+    item: "",
+    open: "",
+    image: "",
+    div: "",
+    h3: "",
+  },
+  {
+    item: "",
+    open: "",
+    image: "",
+    div: "",
+    h3: "",
+  },
+];
 
-
-const portfolioGrid = document.querySelector(".portfolioTiles")
+const portfolioGrid = document.querySelector(".portfolioTiles");
 
 for (const tile of cardTiles) {
-    const tiles = document.createElement('div');
-    const tileContent = `
+  const tiles = document.createElement("div");
+  const tileContent = `
     <div class="portfolio-card" data-item="${tile.item}" data-open="${tile.open}">
     <div class="card-body">
       <img src="${tile.image}" alt="portfolio-icon">
@@ -74,83 +73,91 @@ for (const tile of cardTiles) {
   </div>
     `;
 
-    tiles.innerHTML = tileContent;
-    portfolioGrid.appendChild(tiles)   
+  tiles.innerHTML = tileContent;
+  portfolioGrid.appendChild(tiles);
 }
 
-
-const eachCard = document.querySelector(".portfolioPopups"); console.log(eachCard);
+const eachCard = document.querySelector(".portfolioPopups");
+console.log(eachCard);
 
 const serviceCards = [
   {
     id: "bark",
-    h3: "",
-    image: "",
+    h3: "Bark!",
+    image: "Photos/Screen Shot 2023-01-30 at 6.14.31 AM.png",
     description: `<p><strong></strong></p>
    <p></p>
    <p></p> 
    `,
   },
   {
-   id: "nancys",
-   h3: "Pet Care App",
-   image: "Photos/Screen Shot 2023-01-30 at 6.51.36 AM.png",
-   description: `<p><strong></strong></p>
+    id: "nancys",
+    h3: "Pet Care App",
+    image: "Photos/Screen Shot 2023-01-30 at 6.51.36 AM.png",
+    description: `<p><strong></strong></p>
   <p></p>
   <p></p> 
   `,
- },
- {
-   id: "emoji",
-   h3: "",
-   image: "",
-   description: `<p><strong></strong></p>
-  <p></p>
-  <p></p> 
+  },
+  {
+    id: "emoji",
+    h3: "React Game",
+    image: "Photos/Screen Shot 2023-01-30 at 6.42.21 AM.png",
+    description: `<p><strong></strong></p>
+    <p></p>
+    <p></p> 
   `,
- },
- {
-   id: "",
-   h3: "",
-   image: "",
-   description: `<p><strong></strong></p>
-  <p></p>
-  <p></p> 
-  `,
- },
- {
-   id: "",
-   h3: "",
-   image: "",
-   description: `<p><strong></strong></p>
-  <p></p>
-  <p></p> 
-  `,
- },
+  },
+  {
+    id: "debtCalc",
+    h3: "Debt Calculator",
+    image: "Photos/Screen Shot 2023-01-31 at 8.16.40 AM.png",
+    description: 
+    `
+    <p><strong>Debt Calculator Built with React</strong></p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+    enim ad minim veniam,</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+    enim ad minim veniam,</p> 
+  `
+  ,
+  },
   {
     id: "",
     h3: "",
     image: "",
     description: `<p><strong></strong></p>
-   <p></p>
-   <p></p> 
+    <p></p>
+    <p></p> 
+  `,
+  },
+  {
+    id: "",
+    h3: "",
+    image: "",
+    description: `<p><strong></strong></p>
+    <p></p>
+     <p></p> 
    `,
   },
   {
-   id: "",
-   h3: "HELLO",
-   image: "",
-   description: `<p><strong></strong></p>
-  <p></p>
-  <p></p> 
+    id: "",
+    h3: "HELLO",
+    image: "",
+    description: `<p><strong></strong></p>
+    <p></p>
+    <p></p> 
   `,
- },
+  },
 ];
 
 const createCards = () => {
   const cards = serviceCards
-  .map(({ id, h3, image, description }) => (
-      `
+    .map(
+      ({ id, h3, image, description }) =>
+        `
       <div id="${id}" class="modal" data-animation="slideInOutTop">
       <div class="modal-dialog">
        <header class="modal-header">
@@ -168,10 +175,11 @@ const createCards = () => {
       </div>
     </div>
       `
-  )).join('');
+    )
+    .join("");
   eachCard.innerHTML = cards;
 };
 
-
-
 createCards();
+
+

@@ -25,3 +25,28 @@
    --border: #ced4da;
 }
 
+
+
+
+
+/* Shapes Background at top of page */
+.custom-shape-divider-top-1675182074 {
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   overflow: hidden;
+   line-height: 0;
+   z-index: -1;
+}
+
+.custom-shape-divider-top-1675182074 svg {
+   position: relative;
+   display: block;
+   width: calc(201% + 1.3px);
+   height: 500px;
+}
+
+.custom-shape-divider-top-1675182074 .shape-fill {
+   fill: #495fef;
+}

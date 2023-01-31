@@ -344,8 +344,8 @@
     right: 20px;
     transition: 0.4s;
     z-index: 1;
-    padding: 1.25rem 1.875rem;
-    opacity: 0;
+    padding: 1rem 1rem;
+    opacity: 1;
  }
  
  .card-popup-box:before {
