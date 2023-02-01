@@ -19,7 +19,7 @@
     <link rel="stylesheet" href="/CSS/responsive.css" />
     <title>CodeBAY</title>
   </head>
-
+  <!-- Theme Switcher Button -->
   <body>
     <div class="theme-panel">
       <div class="theme-body">
@@ -33,9 +33,10 @@
         </button>
       </div>
     </div>
-
+    <!-- Main Content -->
     <main class="site-wrapper container">
       <header class="site-header">
+        <!-- Shapes Background Stuff -->
         <div class="custom-shape-divider-top-1675182074">
           <svg
             data-name="Layer 1"
@@ -59,6 +60,7 @@
             ></path>
           </svg>
         </div>
+        <!--Navbar  -->
         <nav class="navbar">
           <div class="brand-logo">
             <a href="/"><h2>CodeBAY</h2></a>
@@ -72,7 +74,6 @@
           </div>
         </nav>
       </header>
-
       <!-- Hero Section-->
       <section class="hero-backround">
         <div class="container">
@@ -90,6 +91,11 @@
               <div class="btn btn-primary round-pill">
                 <a href="#" data-open="contact">Lets talk now</a>
               </div>
+              <div class="marqueeHeroWrapper">
+                <div class="marquee">
+                  <ul class="marquee-content marqueeHero"></ul>
+                </div>
+              </div>
             </div>
             <div class="me">
               <img
@@ -100,7 +106,7 @@
           </div>
         </div>
       </section>
-
+      <!-- Portfolio  -->
       <section class="portfolio-section">
         <div class="container search-container">
           <!-- <label for="search">
@@ -123,7 +129,7 @@
         <div class="portfolioTiles"></div>
         <div class="portfolioPopups"></div>
       </section>
-
+      <!-- Reviews -->
       <section class="reviews">
         <div class="review-title">What people say</div>
         <h2 class="header-md">Trusted By Clients</h2>
@@ -140,7 +146,6 @@
           </button>
         </div>
       </section>
-
       <!-- Modals-->
 
       <!-- About Page Modal-->
@@ -178,22 +183,10 @@
             </div>
           </div>
           <div class="marquee">
-            <ul class="marquee-content">
-              <li><i class="fab fa-github"></i></li>
-              <li><i class="fab fa-codepen"></i></li>
-              <li><i class="fab fa-dev"></i></li>
-              <li><i class="fab fa-react"></i></li>
-              <li><i class="fab fa-vuejs"></i></li>
-              <li><i class="fab fa-angular"></i></li>
-              <li><i class="fab fa-node"></i></li>
-              <li><i class="fab fa-aws"></i></li>
-              <li><i class="fab fa-docker"></i></li>
-              <li><i class="fab fa-android"></i></li>
-            </ul>
+            <ul class="marquee-content marqueeAbout"></ul>
           </div>
         </div>
       </div>
-
       <!-- Contact Page Modal-->
       <div
         id="contact"
@@ -240,7 +233,6 @@
           </form>
         </div>
       </div>
-
       <!-- Loading Screen -->
       <div class="loading-screen">
         <div class="spinner">
@@ -277,6 +269,7 @@
 
   <script src="/JS/loadingScreen.js"></script>
   <script src="/JS/portfolioCards.js"></script>
+  <script src="/JS/Marque.js"></script>
   <script src="/JS/main.js"></script>
   <script src="/JS/reviewCards.js"></script>
 </html>

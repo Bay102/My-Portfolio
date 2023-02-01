@@ -30,7 +30,7 @@ for (const review of reviews) {
 }
 
 const slides = document.querySelectorAll('.review-item');
-console.log(slides);
+
 const buttons = document.querySelectorAll('.slide-ctrl-container button');
 
 let current = Math.floor(Math.random() * slides.length);

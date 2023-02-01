@@ -92,7 +92,6 @@ const closeService = document.querySelectorAll(serviceClose);
 //  and adding eventlistener to each one 
 for (const elm of openModal) { // open Modal buttons
    elm.addEventListener('click', function() {
-      console.log(openModal);
       const modalId = this.dataset.open;  // "this" is referring to the parent Element
       document.getElementById(modalId).classList.add(isVisible)
    })
@@ -166,16 +165,15 @@ document.addEventListener('keyup', (e) => {
 
 for (const elm of closeService) {
    elm.addEventListener("click", function() {
-      console.log(elm)
       this.parentElement.parentElement.parentElement.classList.remove(isVisible)
    })
 }
 
-const elmsDisplayed = getComputedStyle(root).getPropertyValue('--marquee-elms-displayed');
-const marqueeContent = document.querySelector('ul.marquee-content');
+const elmsDisplayed = getComputedStyle(root).getPropertyValue('--marquee-elms-displayed'); console.log(elmsDisplayed);
+const marqueeContent = document.querySelector('ul.marquee-content'); console.log(marqueeContent);
 
 root.style.setProperty('--marquee-elms', marqueeContent.children.length);
 
 for (let i = 0; i < elmsDisplayed; i += 1) {
-   marqueeContent.appendChild(marqueeContent.children[i].cloneNode(true));
+   marqueeContent.appendChild(marqueeContent.children[i]);
 }
