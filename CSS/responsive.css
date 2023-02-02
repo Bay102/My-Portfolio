@@ -12,6 +12,11 @@
    .hero-content {
       padding: 20px auto;
       gap: 0;
+      justify-content: center;
+   }
+
+   .codeeatsleep { 
+      width: 100%;
    }
 
    .me {
@@ -25,5 +30,27 @@
    .review-carousel {
       left: -180px;
       margin: 100px 0 20px;
+   }
+
+   .marquee-content li {
+      width: 180px;
+   }
+
+   #about .modal-body {
+      margin: 0;
+      padding: 0;
+   }
+
+   .about-title-wrapper {
+      display: flex;
+   }
+
+   .about-text p {
+      font-size: 14px;
+   }
+
+   #about .img-wrapper img {
+      width: 80px;
+      height: 80px;
    }
 }

@@ -169,11 +169,11 @@ for (const elm of closeService) {
    })
 }
 
-const elmsDisplayed = getComputedStyle(root).getPropertyValue('--marquee-elms-displayed'); console.log(elmsDisplayed);
-const marqueeContent = document.querySelector('ul.marquee-content'); console.log(marqueeContent);
+// const elmsDisplayed = getComputedStyle(root).getPropertyValue('--marquee-elms-displayed');
+// const marqueeContent = document.querySelector('ul.marquee-content'); 
 
-root.style.setProperty('--marquee-elms', marqueeContent.children.length);
+// root.style.setProperty('--marquee-elms', marqueeContent.children.length);
 
-for (let i = 0; i < elmsDisplayed; i += 1) {
-   marqueeContent.appendChild(marqueeContent.children[i]);
-}
+// for (let i = 0; i < elmsDisplayed; i += 1) {
+//    marqueeContent.appendChild(marqueeContent.children[i]);
+// }

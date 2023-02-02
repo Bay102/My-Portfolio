@@ -65,7 +65,7 @@ display: block;
 
 
 .marquee {
-   width: 900px;
+   width: 100%;
    height: var(--marquee-height);
    overflow: hidden;
    margin: 2rem auto;
@@ -88,6 +88,11 @@ display: block;
    white-space: nowrap;
    flex-shrink: 0;
    font-size: calc(var(--marquee-height) * 3 / 4);
+   color: black;
+}
+
+.marqueeHeroWrapper {
+   overflow: hidden;
 }
 
 .marquee::before,

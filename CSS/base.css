@@ -97,6 +97,7 @@ button:not(.disabled):not(.disabled) {
 
 .header-lg {
    font-size: 4rem;
+   font-family: copperplate;
    letter-spacing: -2.5px;
    line-height: 1.05;
 }

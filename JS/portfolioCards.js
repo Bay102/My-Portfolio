@@ -41,20 +41,20 @@ const cardTiles = [
     div: "Javascript",
     h3: "Folio",
   },
-  {
-    item: "",
-    open: "",
-    image: "",
-    div: "",
-    h3: "",
-  },
-  {
-    item: "",
-    open: "",
-    image: "",
-    div: "",
-    h3: "",
-  },
+  // {
+  //   item: "",
+  //   open: "",
+  //   image: "",
+  //   div: "",
+  //   h3: "",
+  // },
+  // {
+  //   item: "",
+  //   open: "",
+  //   image: "",
+  //   div: "",
+  //   h3: "",
+  // },
 ];
 
 const portfolioGrid = document.querySelector(".portfolioTiles");
@@ -142,15 +142,15 @@ const serviceCards = [
      <p></p> 
    `,
   },
-  {
-    id: "",
-    h3: "HELLO",
-    image: "",
-    description: `<p><strong></strong></p>
-    <p></p>
-    <p></p> 
-  `,
-  },
+  // {
+  //   id: "",
+  //   h3: "HELLO",
+  //   image: "",
+  //   description: `<p><strong></strong></p>
+  //   <p></p>
+  //   <p></p> 
+  // `,
+  // },
 ];
 
 const createCards = () => {
