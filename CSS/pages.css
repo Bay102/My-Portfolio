@@ -2,6 +2,10 @@
    background: var(--bg);
 }
 
+.about-title-wrapper {
+   display: flex;
+}
+
 #about .modal-body,
 #contact .modal-body  {
    margin-top: 2rem;
@@ -80,15 +84,27 @@ display: block;
 }
 
 .marquee-content li {
-   width: var(--marquee-elm-width);
+   width: 300px;
    display: flex;
    justify-content: center;
    align-items: center;
    max-height: 100%;
    white-space: nowrap;
    flex-shrink: 0;
-   font-size: calc(var(--marquee-height) * 3 / 4);
-   color: black;
+   color: var( --dev-icons);
+}
+
+.icon-wrap {
+   display: flex;
+   flex-direction: column;
+}
+
+.icon-wrap i {
+   font-size: 60px;
+}
+
+.icon-wrap div {
+   font-size: 15px;
 }
 
 .marqueeHeroWrapper {

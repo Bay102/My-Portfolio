@@ -1,19 +1,21 @@
-const marqueItems = [
-  { className: "fab fa-github" },
-  { className: "fab fa-codepen" },
-  { className: "fab fa-dev" },
-  { className: "fab fa-react" },
-  { className: "fab fa-node" },
-  { className: "fa-brands fa-html5" },
-  { className: "fa-brands fa-css3-alt" },
-  { className: "fa-brands fa-square-js" },
+const marqueItems = [ 
+{ name: 'DEV', className: "fab fa-dev" },
+{ name: 'NODE', className: "fab fa-node" },
+{ name: 'HTML5', className: "fa-brands fa-html5" },
+{ name: 'REACT', className: "fab fa-react" },
+{ name: 'JAVASCRIPT', className: "fa-brands fa-square-js" },
+{ name: 'GITHUB', className: "fab fa-github" },
+{ name: 'CSS3', className: "fa-brands fa-css3-alt" },
 ];
 
 const marqueeHero = document.querySelector(".marqueeHero");
 for (const icon of marqueItems) {
   const listItem = document.createElement("li");
   const liContent = `
+      <div class="icon-wrap">
       <i class="${icon.className}"></i>
+      <div>${icon.name}</div>
+      </div>
        `;
   listItem.innerHTML = liContent;
   marqueeHero.appendChild(listItem);
@@ -24,7 +26,10 @@ const marqueeAbout = document.querySelector(".marqueeAbout");
 for (const icon of marqueItems) {
   const listItem = document.createElement("li");
   const liContent = `
-      <i class="${icon.className}"></i>
+  <div class="icon-wrap">
+  <i class="${icon.className}"></i>
+  <div>${icon.name}</div>
+  </div>
        `;
   listItem.innerHTML = liContent;
   marqueeAbout.appendChild(listItem);

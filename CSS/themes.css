@@ -6,6 +6,7 @@
    --color-text: #161c2d;
    --color-text-base: #161c2d;
    --border: #383f53;
+   --dev-icons: #495fef;
 }
 
 [data-theme="light"] .hero-bg {

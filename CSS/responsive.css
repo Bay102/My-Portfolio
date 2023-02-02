@@ -1,4 +1,4 @@
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 430px) {
 
    .container {
       max-width: 400px;
@@ -36,6 +36,14 @@
       width: 180px;
    }
 
+   .marqueeAbout li {
+      font-size: 50px;
+   }
+
+   .modal-body { 
+      flex-direction: column;
+   }
+
    #about .modal-body {
       margin: 0;
       padding: 0;
@@ -46,7 +54,7 @@
    }
 
    .about-text p {
-      font-size: 14px;
+      font-size: 18px;
    }
 
    #about .img-wrapper img {

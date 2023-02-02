@@ -85,27 +85,39 @@ const serviceCards = [
     id: "bark",
     h3: "Bark!",
     image: "Photos/Screen Shot 2023-01-30 at 6.14.31 AM.png",
-    description: `<p><strong></strong></p>
-   <p></p>
-   <p></p> 
+    description: `<p><strong>Dog Instagram with Api</strong></p>
+   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+   eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+   enim ad minim veniam</p>
+   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+   eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+   enim ad minim veniam</p> 
    `,
   },
   {
     id: "nancys",
     h3: "Pet Care App",
     image: "Photos/Screen Shot 2023-01-30 at 6.51.36 AM.png",
-    description: `<p><strong></strong></p>
-  <p></p>
-  <p></p> 
+    description: `<p><strong>Pet Boarding App</strong></p>
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+  eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+  enim ad minim veniam</p>
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+  eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+  enim ad minim veniam</p> 
   `,
   },
   {
     id: "emoji",
     h3: "React Game",
     image: "Photos/Screen Shot 2023-01-30 at 6.42.21 AM.png",
-    description: `<p><strong></strong></p>
-    <p></p>
-    <p></p> 
+    description: `<p><strong>Emoji Slot Machine Concept</strong></p>
+    <p> ipsum dolor sit amet, consectetur adipiscing elit, sed do
+    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+    enim ad minim veniam></p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+    enim ad minim veniam</p> 
   `,
   },
   {
@@ -128,18 +140,26 @@ const serviceCards = [
     id: "saas",
     h3: "Saas Website",
     image: "Photos/Screen Shot 2023-01-31 at 12.17.08 PM.png",
-    description: `<p><strong></strong></p>
-    <p></p>
-    <p></p> 
+    description: `<p><strong>Saas Website</strong></p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+    enim ad minim veniam</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+    enim ad minim veniam</p> 
   `,
   },
   {
     id: "folio",
     h3: "Folio",
     image: "Photos/Screen Shot 2023-01-31 at 8.08.24 PM.png",
-    description: `<p><strong></strong></p>
-    <p></p>
-     <p></p> 
+    description: `<p><strong>Portfolio Concept</strong></p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+    enim ad minim veniam</p>
+     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+     eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+     enim ad minim veniam</p> 
    `,
   },
   // {

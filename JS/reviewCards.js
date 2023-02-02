@@ -1,7 +1,7 @@
 const reviews = [
-   {text:  "#1 portfolio Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit." , name: 'Charles' , company: "Graphic" , },
-   {text:  "#1 portfolio Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit." , name: 'Gavin', company:"VGK" , },
-   {text:  "#1 portfolio Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit." , name: 'Gavin', company:"VGK" , },
+   {text:  "portfolio Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit." , name: 'Charles' , company: "Graphic" , },
+   {text:  "portfolio Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit." , name: 'Gavin', company:"VGK" , },
+   {text:  "portfolio Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit." , name: 'Gavin', company:"VGK" , },
    // {text:  "#1 portfolio Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit." , name: 'Gavin', company:"VGK" , },
 ]
 
@@ -16,7 +16,7 @@ for (const review of reviews) {
    </div>
    <div class="review-author">
      <div class="avatar">
-       <img src="" alt="avatar" />
+     <i class="fa-solid fa-circle-user"></i>
      </div>
      <div class="details">
        <div class="name">${review.name}</div>

@@ -7,5 +7,5 @@
  window.addEventListener("load", function() {
    setTimeout(function() {
      document.querySelector(".loading-screen").style.display = "none";
-   }, 2800); // Hide the loading screen after 3.8 second
+   }, 2500); // Hide the loading screen after 3.8 second
  });
