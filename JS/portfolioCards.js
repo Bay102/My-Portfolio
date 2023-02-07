@@ -41,13 +41,13 @@ const cardTiles = [
     div: "Javascript",
     h3: "Folio",
   },
-  // {
-  //   item: "",
-  //   open: "",
-  //   image: "",
-  //   div: "",
-  //   h3: "",
-  // },
+  {
+    item: "cardValidator",
+    open: "cardValidator",
+    image: "Photos/Screen Shot 2023-02-06 at 2.03.27 PM.png",
+    div: "REACT",
+    h3: "Credit/Debit Card Validator",
+  },
   // {
   //   item: "",
   //   open: "",
@@ -162,15 +162,19 @@ const serviceCards = [
      enim ad minim veniam</p> 
    `,
   },
-  // {
-  //   id: "",
-  //   h3: "HELLO",
-  //   image: "",
-  //   description: `<p><strong></strong></p>
-  //   <p></p>
-  //   <p></p> 
-  // `,
-  // },
+  {
+    id: "cardValidator",
+    h3: "Card Validator",
+    image: "Photos/Screen Shot 2023-02-06 at 2.03.27 PM.png",
+    description: `<p><strong>Bank CArd Validator</strong></p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+     eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+     enim ad minim veniam</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+     eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+     enim ad minim veniam</p> 
+  `,
+  },
 ];
 
 const createCards = () => {
