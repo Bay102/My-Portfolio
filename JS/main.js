@@ -15,7 +15,6 @@ const toggleTheme = document.querySelector(themeTab);
 const switcher = document.querySelectorAll(switcherBtn); // puts into node list 
 const currentTheme = localStorage.getItem(theme) // storing theme in local browser storage 
 
-
 // open/close theme panel ///
 toggleTheme.addEventListener('click', function() {
    const tab = this.parentElement.parentElement;
@@ -26,7 +25,6 @@ toggleTheme.addEventListener('click', function() {
    }
 })
 
-
 // ask about this 
 const setActive = (elm, selector) => {
    if (document.querySelector(`${selector}.${active}`) !== null) {
@@ -34,7 +32,6 @@ const setActive = (elm, selector) => {
    } 
    elm.classList.add(active)
 }
-
 
 // 
 const setTheme = (val) => {
@@ -69,8 +66,6 @@ for (const elm of switcher) {
 })
 }
 
-
-
 //// -------------------- MODAL STUFF ------------------------ //////
 
 const modalOpen = '[data-open]';
@@ -87,7 +82,6 @@ const closeModal = document.querySelectorAll(modalClose);
 //
 const closeService = document.querySelectorAll(serviceClose);
 
-
 // for of loop to iterate through node list of queried elements above 
 //  and adding eventlistener to each one 
 for (const elm of openModal) { // open Modal buttons
@@ -103,9 +97,6 @@ for (const elm of closeModal) { // close modal buttons
    })
 }
 
-
-
-
 //// -------------------- SERVICES STUFF (portfolio) ------------------------ //////
 
    const dataFilter = '[data-filter]';
@@ -114,8 +105,6 @@ for (const elm of closeModal) { // close modal buttons
 
    const filterLink = document.querySelectorAll(dataFilter); //  Node list of all HTML tags with data-filter
    const servicesItems = document.querySelectorAll(servicesData); //  Node list of all HTML tags with data-item
-
-
 
    // Search Box 
    // searchBox.addEventListener('keyup', (event) => {
@@ -147,7 +136,6 @@ for (const elm of closeModal) { // close modal buttons
          })
       })
    }
-
 
 // Modals 
 

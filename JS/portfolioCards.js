@@ -1,10 +1,24 @@
 const cardTiles = [
   {
+    item: "extremeMachines",
+    open: "extremeMachines",
+    image: "Photos/Screen Shot 2023-03-26 at 9.18.06 AM.png",
+    div: "E-Commerce Store",
+    h3: "Extreme Machines",
+  },
+  {
     item: "bark",
     open: "bark",
     image: "/Photos/Screen Shot 2023-01-30 at 6.14.31 AM.png",
     div: "Javascript w/ API",
     h3: "Dog Instagram",
+  },
+  {
+    item: "taskify",
+    open: "taskify",
+    image: "Photos/Screen Shot 2023-03-26 at 8.17.16 AM.png",
+    div: "TypeScript & React",
+    h3: "Taskify ToDo App",
   },
   {
     item: "NancysPetCare",
@@ -82,10 +96,36 @@ const eachCard = document.querySelector(".portfolioPopups");
 
 const serviceCards = [
   {
+    id: "extremeMachines",
+    h3: "Extreme Machines",
+    image: "Photos/Screen Shot 2023-03-26 at 9.18.06 AM.png",
+    description: `<p><strong>Extreme Machines</strong></p>
+   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+   eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+   enim ad minim veniam</p>
+   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+   eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+   enim ad minim veniam</p> 
+   `,
+  },
+  {
     id: "bark",
     h3: "Bark!",
     image: "Photos/Screen Shot 2023-01-30 at 6.14.31 AM.png",
     description: `<p><strong>Dog Instagram with Api</strong></p>
+   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+   eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+   enim ad minim veniam</p>
+   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+   eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+   enim ad minim veniam</p> 
+   `,
+  },
+  {
+    id: "taskify",
+    h3: "Taskify ToDo App",
+    image: "Photos/Screen Shot 2023-03-26 at 8.17.16 AM.png",
+    description: `<p><strong>Taskify ToDo App</strong></p>
    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
    enim ad minim veniam</p>

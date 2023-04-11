@@ -1,3 +1,7 @@
+.code-icon img {
+  width: 200px;
+}
+
 .theme-panel {
   position: fixed;
   right: 0;
@@ -240,7 +244,7 @@
 }
 
 .code-icon {
-  background-color: #da5252;
+  background-color: #8d9bf7;
   padding: 1.25rem 1.5rem;
   border-radius: 50rem;
   display: inline-block;

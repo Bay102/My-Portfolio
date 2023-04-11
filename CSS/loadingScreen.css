@@ -3,7 +3,7 @@
 
 .loading-screen {
    display: none; /* Hide the loading screen by default */
-   background-color: #191919; /* Set the background color */
+   background-color: #495fef; /* Set the background color */
    position: fixed; /* Position the element on the page */
    top: 0;
    left: 0;
@@ -59,6 +59,11 @@
   transform-origin: bottom left;
   animation: moveIn 2s 0s cubic-bezier(.36,0,.06,1) alternate infinite ;
 }
+
+.jt__text img {
+  width: 400px;
+}
+
 .jt__row:nth-child(1) .jt__text {
   transform: translateY(-0.1em);
 }

@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <script src="/JS/loadingScreen.js"></script>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -17,6 +18,8 @@
     <link rel="stylesheet" href="/CSS/styles.css" />
     <link rel="stylesheet" href="/CSS/pages.css" />
     <link rel="stylesheet" href="/CSS/responsive.css" />
+    <link rel="stylesheet" href="/CSS/marquee.css" />
+
     <title>CodeBAY</title>
   </head>
   <!-- Theme Switcher Button -->
@@ -62,9 +65,7 @@
         </div>
         <!--Navbar  -->
         <nav class="navbar">
-          <div class="brand-logo">
-            <a href="/"><h2>CodeBAY</h2></a>
-          </div>
+          <div class="brand-logo"></div>
           <div class="navbar-nav">
             <ul class="ul-defaults-none main-menu">
               <li class="nav-item">Home</li>
@@ -80,7 +81,7 @@
           <div class="hero-content">
             <div class="codeeatsleep">
               <div class="code-icon">
-                <i class="fa fa-code"></i>
+                <img src="/Photos/codebay_logo.svg" alt="" />
               </div>
               <h2 class="header-lg">Hi! Welcome to my portfolio</h2>
               <div class="sub-header">
@@ -89,15 +90,13 @@
                 <br />
                 Give Your customers the best experience as possible!
               </div>
-              <div class="btn btn-primary round-pill">
+
+              <!-- <div class="btn btn-primary round-pill">
                 <a href="#" data-open="contact">Lets talk now</a>
-              </div>
+              </div> -->
             </div>
             <div class="me">
-              <img
-                src="/Photos/Screen Shot 2023-01-30 at 5.45.53 PM.png"
-                alt=""
-              />
+              <img src="/Photos/Screen Shot 2023-01-30 at 5.45.53 PM.png" alt="" />
             </div>
           </div>
         </div>
@@ -151,11 +150,7 @@
       <!-- Modals-->
 
       <!-- About Page Modal-->
-      <div
-        id="about"
-        class="full-site-modal page-block"
-        data-animation="zoomInOut"
-      >
+      <div id="about" class="full-site-modal page-block" data-animation="zoomInOut">
         <div class="container-fluid">
           <header class="modal-header">
             <h3>ABOUT PAGE</h3>
@@ -174,13 +169,13 @@
               </div>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam,
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+                ad minim veniam,
               </p>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam,
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+                ad minim veniam,
               </p>
               <div class="contact-me-block">Email Me</div>
               <a href="mailto: zak@codebay.tech">zak@codebay.tech</a>
@@ -208,12 +203,7 @@
             <div>I will reply within 48 hours</div>
           </div>
           <form class="folio-form">
-            <input
-              class="form-control"
-              name="name"
-              type="text"
-              placeholder="Name"
-            />
+            <input class="form-control" name="name" type="text" placeholder="Name" />
             <input
               class="form-control"
               name="email"
@@ -243,25 +233,29 @@
           <h1 class="jt --debug">
             <span class="jt__row">
               <span class="jt__text">
-                <i class="load-icon fa-sharp fa-solid fa-code"></i>
+                <img src="/Photos/codebay_logo.svg" alt="" />
+
                 <div class="loadingBay"></div>
               </span>
             </span>
             <span class="jt__row jt__row--sibling" aria-hidden="true">
               <span class="jt__text">
-                <i class="load-icon fa-sharp fa-solid fa-code"></i>
+                <img src="/Photos/codebay_logo.svg" alt="" />
+
                 <div class="loadingBay"></div>
               </span>
             </span>
             <span class="jt__row jt__row--sibling" aria-hidden="true">
               <span class="jt__text">
-                <i class="load-icon fa-sharp fa-solid fa-code"></i>
+                <img src="/Photos/codebay_logo.svg" alt="" />
+
                 <div class="loadingBay"></div>
               </span>
             </span>
             <span class="jt__row jt__row--sibling" aria-hidden="true">
               <span class="jt__text">
-                <i class="load-icon fa-sharp fa-solid fa-code"></i>
+                <img src="/Photos/codebay_logo.svg" alt="" />
+
                 <div class="loadingBay"></div>
               </span>
             </span>
@@ -271,7 +265,6 @@
     </main>
   </body>
 
-  <script src="/JS/loadingScreen.js"></script>
   <script src="/JS/portfolioCards.js"></script>
   <script src="/JS/Marque.js"></script>
   <script src="/JS/main.js"></script>
