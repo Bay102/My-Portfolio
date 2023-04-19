@@ -44,16 +44,12 @@ if (document.readyState === 'loading') {
     document.querySelector('.loading-screen').style.display = 'block';
   });
 
- window.addEventListener('DOMContentLoaded', function () {
+  window.addEventListener('DOMContentLoaded', function () {
     setTimeout(function () {
       document.querySelector('.loading-screen').style.display = 'none';
-    }, 2500); // Hide the loading screen after 3.8 second
+    }, 3800); // Hide the loading screen after 3.8 second
   });
-
-
 } else {
- 
- 
 }
 //  window.addEventListener("load", function() {
 //   document.querySelector(".loading-screen").style.display = "block";
