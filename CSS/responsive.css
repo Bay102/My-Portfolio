@@ -21,6 +21,11 @@
     width: 0;
   }
 
+  .code-icon {
+   position: relative;
+   bottom: 20px;
+  }
+
   .sub-header {
     width: 99%;
     margin: auto;
