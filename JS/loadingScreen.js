@@ -39,18 +39,20 @@
 // loadingDiv.innerHTML = loadingScreenHTML
 
 // Show the loading screen when the page is loading
-if (document.readyState === 'loading') {
-  window.addEventListener('DOMContentLoaded', function () {
-    document.querySelector('.loading-screen').style.display = 'block';
-  });
+// if (document.readyState === 'loading') {
+//   console.log(document.readyState);
+//   window.addEventListener('DOMContentLoaded', function () {
+//     document.querySelector('.loading-screen').style.display = 'block';
+//   });
+//   window.addEventListener('DOMContentLoaded', function () {
+//     setTimeout(function () {
+//       document.querySelector('.loading-screen').style.display = 'none';
+//     }, 3800); // Hide the loading screen after 3.8 second
+//   });
+// } else {
+//   console.log('loaded');
+// }
 
-  window.addEventListener('DOMContentLoaded', function () {
-    setTimeout(function () {
-      document.querySelector('.loading-screen').style.display = 'none';
-    }, 3800); // Hide the loading screen after 3.8 second
-  });
-} else {
-}
 //  window.addEventListener("load", function() {
 //   document.querySelector(".loading-screen").style.display = "block";
 // });
