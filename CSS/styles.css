@@ -184,6 +184,7 @@
 .modal.is-visible {
   visibility: visible;
   opacity: 1;
+  overflow: scroll;
 }
 
 .modal-header {
@@ -438,7 +439,7 @@
   display: flex;
   justify-content: center;
   height: 250px;
-  margin: 200px 0 50px;
+  margin: 150px 0 50px;
   pointer-events: none;
 }
 
