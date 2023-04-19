@@ -1,18 +1,18 @@
-const marqueItems = [ 
-  { name: 'DEV', className: "fab fa-dev" },
-  { name: 'SQL', className: "" },
-  { name: 'CSS3', className: "fa-brands fa-css3-alt" },
-  { name: 'GITHUB', className: "fab fa-github" },
-  { name: 'JAVASCRIPT', className: "fa-brands fa-square-js" },
-  { name: 'REACT', className: "fab fa-react" },
-{ name: '', className: "fab fa-node" },
-{ name: 'HTML5', className: "fa-brands fa-html5" },
-{ name: 'TYPESCRIPT', className: "" },
+const marqueItems = [
+  { name: 'DEV', className: 'fab fa-dev' },
+  { name: 'HTML5', className: 'fa-brands fa-html5' },
+  { name: 'TYPESCRIPT', className: '' },
+  { name: 'SQL', className: '' },
+  { name: 'CSS3', className: 'fa-brands fa-css3-alt' },
+  { name: 'GITHUB', className: 'fab fa-github' },
+  { name: 'JAVASCRIPT', className: 'fa-brands fa-square-js' },
+  { name: 'REACT', className: 'fab fa-react' },
+  { name: '', className: 'fab fa-node' },
 ];
 
-const marqueeHero = document.querySelector(".marqueeHero");
+const marqueeHero = document.querySelector('.marqueeHero');
 for (const icon of marqueItems) {
-  const listItem = document.createElement("li");
+  const listItem = document.createElement('li');
   const liContent = `
       <div class="icon-wrap">
       <i class="${icon.className}"></i>
@@ -23,10 +23,10 @@ for (const icon of marqueItems) {
   marqueeHero.appendChild(listItem);
 }
 
-const marqueeAbout = document.querySelector(".marqueeAbout");
+const marqueeAbout = document.querySelector('.marqueeAbout');
 
 for (const icon of marqueItems) {
-  const listItem = document.createElement("li");
+  const listItem = document.createElement('li');
   const liContent = `
   <div class="icon-wrap">
   <i class="${icon.className}"></i>
@@ -38,11 +38,13 @@ for (const icon of marqueItems) {
 }
 
 const rooot = document.documentElement;
-const elmsDisplayed = getComputedStyle(rooot).getPropertyValue('--marquee-elms-displayed');
-const marqueeContent = document.querySelector('ul.marquee-content'); 
+const elmsDisplayed = getComputedStyle(rooot).getPropertyValue(
+  '--marquee-elms-displayed'
+);
+const marqueeContent = document.querySelector('ul.marquee-content');
 
 rooot.style.setProperty('--marquee-elms', marqueeContent.children.length);
 
 for (let i = 0; i < elmsDisplayed; i += 1) {
-   marqueeContent.appendChild(marqueeContent.children[i]);
+  marqueeContent.appendChild(marqueeContent.children[i]);
 }

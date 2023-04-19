@@ -1,10 +1,10 @@
 const cardTiles = [
   {
-    item: "extremeMachines",
-    open: "extremeMachines",
-    image: "Photos/ExtremeMachines.png",
-    div: "E-Commerce Store",
-    h3: "Extreme Machines",
+    item: "saas",
+    open: "saas",
+    image: "Photos/Screen Shot 2023-01-31 at 12.17.08 PM.png",
+    div: "HTML/CSS",
+    h3: "Saas Website",
   },
   {
     item: "bark",
@@ -12,6 +12,20 @@ const cardTiles = [
     image: "/Photos/Screen Shot 2023-01-30 at 6.14.31 AM.png",
     div: "Javascript w/ API",
     h3: "Dog Instagram",
+  },
+  {
+    item: "folio",
+    open: "folio",
+    image: "Photos/Screen Shot 2023-01-31 at 8.08.24 PM.png",
+    div: "Javascript",
+    h3: "Folio",
+  },
+  {
+    item: "extremeMachines",
+    open: "extremeMachines",
+    image: "Photos/ExtremeMachines.png",
+    div: "E-Commerce Store",
+    h3: "Extreme Machines",
   },
   {
     item: "taskify",
@@ -40,20 +54,6 @@ const cardTiles = [
     image: "Photos/Screen Shot 2023-01-31 at 8.16.40 AM.png",
     div: "React",
     h3: "Debt Calculator",
-  },
-  {
-    item: "saas",
-    open: "saas",
-    image: "Photos/Screen Shot 2023-01-31 at 12.17.08 PM.png",
-    div: "HTML/CSS",
-    h3: "Saas Website",
-  },
-  {
-    item: "folio",
-    open: "folio",
-    image: "Photos/Screen Shot 2023-01-31 at 8.08.24 PM.png",
-    div: "Javascript",
-    h3: "Folio",
   },
   {
     item: "cardValidator",
