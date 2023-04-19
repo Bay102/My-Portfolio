@@ -16,14 +16,14 @@ const switcher = document.querySelectorAll(switcherBtn); // puts into node list
 const currentTheme = localStorage.getItem(theme) // storing theme in local browser storage 
 
 // open/close theme panel ///
-toggleTheme.addEventListener('click', function() {
-   const tab = this.parentElement.parentElement;
-   if (!tab.className.includes(open)) {
-      tab.classList.add(open);
-   } else {
-      tab.classList.remove(open)
-   }
-})
+// toggleTheme.addEventListener('click', function() {
+//    const tab = this.parentElement.parentElement;
+//    if (!tab.className.includes(open)) {
+//       tab.classList.add(open);
+//    } else {
+//       tab.classList.remove(open)
+//    }
+// })
 
 // ask about this 
 const setActive = (elm, selector) => {
@@ -45,17 +45,17 @@ const setTheme = (val) => {
 }
 
 // theme storage 
-if (currentTheme) {
-   root.setAttribute(dataTheme, currentTheme);
-   switcher.forEach((btn) => {
-      btn.classList.remove(active)
-   })
-   if (currentTheme === dark) {
-      switcher[1].classList.add(active)
-   } else {
-      switcher[0].classList.add(active)
-   }
-}
+// if (currentTheme) {
+//    root.setAttribute(dataTheme, currentTheme);
+//    switcher.forEach((btn) => {
+//       btn.classList.remove(active)
+//    })
+//    if (currentTheme === dark) {
+//       switcher[1].classList.add(active)
+//    } else {
+//       switcher[0].classList.add(active)
+//    }
+// }
 
 // for of loop for theme switcher 
 for (const elm of switcher) {
