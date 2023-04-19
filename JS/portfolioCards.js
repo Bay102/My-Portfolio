@@ -2,7 +2,7 @@ const cardTiles = [
   {
     item: "extremeMachines",
     open: "extremeMachines",
-    image: "Photos/Screen Shot 2023-03-26 at 9.18.06 AM.png",
+    image: "Photos/ExtremeMachines.png",
     div: "E-Commerce Store",
     h3: "Extreme Machines",
   },
@@ -98,7 +98,7 @@ const serviceCards = [
   {
     id: "extremeMachines",
     h3: "Extreme Machines",
-    image: "Photos/Screen Shot 2023-03-26 at 9.18.06 AM.png",
+    image: "Photos/ExtremeMachines.png",
     description: `<p><strong>Extreme Machines</strong></p>
    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut

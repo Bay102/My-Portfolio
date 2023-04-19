@@ -9,14 +9,14 @@
    --dev-icons: #495fef;
 }
 
-[data-theme="light"] .hero-bg {
+[data-theme="dark"] .hero-bg {
    background-image: url("/images/hero-pattern.webp");
    background-position: center;
    background-repeat: no-repeat;
    background-size: cover;
 }
 
-[data-theme="dark"] {
+[data-theme="light"] {
    --bg: #171a23;
    --bg-panel: #f1f1f1;
    --color-headings: #fff;

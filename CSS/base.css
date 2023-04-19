@@ -102,9 +102,15 @@ button:not(.disabled):not(.disabled) {
 }
 
 .sub-header {
-   font-size: 1.1rem; 
+   font-family: copperplate;
+   font-size: 1.1rem;
    line-height: 2.0;
    padding-top: 1.25rem;
    padding-bottom: 1.875rem;
+   padding-left: 15px;
+   padding-right: 15px;
+   background: #0505055c;
+   border-radius: 30px;
+   width: 580px;
 }
 
