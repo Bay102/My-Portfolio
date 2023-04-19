@@ -1,5 +1,7 @@
 const marqueItems = [ 
 { name: 'JAVASCRIPT', className: "fa-brands fa-square-js" },
+{ name: 'TYPESCRIPT', className: "fa-brands fa-square-js" },
+{ name: 'SQL', className: "fa-brands fa-square-js" },
 { name: 'DEV', className: "fab fa-dev" },
 { name: 'NODE', className: "fab fa-node" },
 { name: 'HTML5', className: "fa-brands fa-html5" },

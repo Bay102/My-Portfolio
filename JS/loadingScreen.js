@@ -1,4 +1,44 @@
-  // Show the loading screen when the page is loading
+// const loadingScreenHTML = (
+//   <div class="loading-screen">
+//   <div class="spinner">
+//     <h1 class="jt --debug">
+//       <span class="jt__row">
+//         <span class="jt__text">
+//           <img src="/Photos/codebay_logo.svg" alt="" />
+
+//           <div class="loadingBay"></div>
+//         </span>
+//       </span>
+//       <span class="jt__row jt__row--sibling" aria-hidden="true">
+//         <span class="jt__text">
+//           <img src="/Photos/codebay_logo.svg" alt="" />
+
+//           <div class="loadingBay"></div>
+//         </span>
+//       </span>
+//       <span class="jt__row jt__row--sibling" aria-hidden="true">
+//         <span class="jt__text">
+//           <img src="/Photos/codebay_logo.svg" alt="" />
+
+//           <div class="loadingBay"></div>
+//         </span>
+//       </span>
+//       <span class="jt__row jt__row--sibling" aria-hidden="true">
+//         <span class="jt__text">
+//           <img src="/Photos/codebay_logo.svg" alt="" />
+
+//           <div class="loadingBay"></div>
+//         </span>
+//       </span>
+//     </h1>
+//   </div>
+// </div>
+// )
+
+// const loadingDiv = document.getElementById('loading');
+// loadingDiv.innerHTML = loadingScreenHTML
+
+// Show the loading screen when the page is loading
   window.addEventListener("load", function() {
    document.querySelector(".loading-screen").style.display = "block";
  });
