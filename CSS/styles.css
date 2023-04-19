@@ -446,7 +446,7 @@
 
 .review-carousel .review-item {
   background: var(--bg-panel);
-  color: var(--color-text-base);
+  color: black;
   max-width: 450px;
   width: 100%;
   padding: 2.5rem;
@@ -491,6 +491,7 @@
   width: 46px;
   height: 46px;
   margin-right: 12px;
+  color: black;
 }
 
 .avatar img {
