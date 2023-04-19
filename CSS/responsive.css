@@ -41,8 +41,13 @@
   }
 
   .marquee-content li {
-    width: 180px;
+   width: 100px;
   }
+
+                         
+  /* .marquee-content li {
+    width: 0px;
+  } */
 
   .marqueeAbout li {
     font-size: 50px;
