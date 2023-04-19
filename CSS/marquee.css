@@ -17,7 +17,7 @@
 }
 
 .marquee-content {
-  list-style: none;
+  list-style: none; 
   display: flex;
   height: 100%;
   animation: scrolling var(--marquee-duration-animation) linear infinite;
