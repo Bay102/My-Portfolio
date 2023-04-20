@@ -1,7 +1,6 @@
 @media screen and (max-width: 430px) {
-
   .custom-shape-divider-top-1675182074 svg {
-    height: 420px ;
+    height: 420px;
   }
 
   .container {
@@ -27,8 +26,7 @@
   }
 
   .code-icon {
-   position: relative;
-   /* bottom: 20px; */
+    position: relative;
   }
 
   .sub-header {
@@ -60,14 +58,9 @@
   }
 
   .marquee-content li {
-   width: 110px;
-   height: 100px;
+    width: 110px;
+    height: 100px;
   }
-
-                         
-  /* .marquee-content li {
-    width: 0px;
-  } */
 
   .marqueeAbout li {
     font-size: 50px;

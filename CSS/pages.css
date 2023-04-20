@@ -21,34 +21,11 @@
   display: block;
 }
 
-.folio-form .form-control {
-  display: block;
-}
 
 .contact-text {
   padding-bottom: 3.5rem;
 }
-.form-btn {
-  width: 100px;
-  border-radius: 10px;
-  background: lightskyblue;
-}
 
-.folio-form .form-control {
-  display: block;
-  border-top: 0;
-  border-left: 0;
-  border-right: 0;
-  max-width: 500px;
-  width: 100%;
-  color: var(--border);
-  padding: 0 0 5px 0;
-  line-height: 26px;
-  margin-bottom: 40px;
-  border-bottom: 1px solid var(--border);
-  outline: none;
-  background: transparent;
-}
 
 #about .img-wrapper {
   flex: 1;
