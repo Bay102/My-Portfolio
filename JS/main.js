@@ -26,12 +26,6 @@ const currentTheme = localStorage.getItem(theme) // storing theme in local brows
 // })
 
 // ask about this 
-const setActive = (elm, selector) => {
-   if (document.querySelector(`${selector}.${active}`) !== null) {
-      document.querySelector(`${selector}.${active}`).classList.remove(active);
-   } 
-   elm.classList.add(active)
-}
 
 // 
 const setTheme = (val) => {
@@ -48,23 +42,23 @@ const setTheme = (val) => {
 // if (currentTheme) {
 //    root.setAttribute(dataTheme, currentTheme);
 //    switcher.forEach((btn) => {
-//       btn.classList.remove(active)
-//    })
-//    if (currentTheme === dark) {
-//       switcher[1].classList.add(active)
-//    } else {
+   //       btn.classList.remove(active)
+   //    })
+   //    if (currentTheme === dark) {
+      //       switcher[1].classList.add(active)
+      //    } else {
 //       switcher[0].classList.add(active)
 //    }
 // }
 
 // for of loop for theme switcher 
-for (const elm of switcher) {
-   elm.addEventListener('click', function() {
-      const toggle = this.dataset.toggle;
-      setActive(elm, switcherBtn);
-      setTheme(toggle)
-})
-}
+// for (const elm of switcher) {
+//    elm.addEventListener('click', function() {
+   //       const toggle = this.dataset.toggle;
+//       setActive(elm, switcherBtn);
+//       setTheme(toggle)
+// })
+// }
 
 //// -------------------- MODAL STUFF ------------------------ //////
 
@@ -99,12 +93,19 @@ for (const elm of closeModal) { // close modal buttons
 
 //// -------------------- SERVICES STUFF (portfolio) ------------------------ //////
 
-   const dataFilter = '[data-filter]';
-   const servicesData = "[data-item]";
-   const searchBox = document.querySelector('#search');
+const dataFilter = '[data-filter]';
+const servicesData = "[data-item]";
 
+const setActive = (elm, selector) => {
+   if (document.querySelector(`${selector}.${active}`) !== null) {
+      document.querySelector(`${selector}.${active}`).classList.remove(active);
+   } 
+   elm.classList.add(active)
+}
    const filterLink = document.querySelectorAll(dataFilter); //  Node list of all HTML tags with data-filter
    const servicesItems = document.querySelectorAll(servicesData); //  Node list of all HTML tags with data-item
+   
+   // const searchBox = document.querySelector('#search');
 
    // Search Box 
    // searchBox.addEventListener('keyup', (event) => {
