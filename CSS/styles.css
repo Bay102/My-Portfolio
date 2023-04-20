@@ -174,7 +174,7 @@
 
 .modal-dialog {
   max-width: 800px;
-  max-height: 80vh;
+  /* max-height: 80vh; */
   background: var(--bg-panel);
   color: var(--color-text-base);
   overflow: hidden;
