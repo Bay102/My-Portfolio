@@ -132,7 +132,7 @@
 .hero-content {
   display: flex;
   text-align: center;
-  padding: 2.5rem 0;
+  padding: .5rem 0;
   gap: 20px;
   justify-content: flex-end;
 }
