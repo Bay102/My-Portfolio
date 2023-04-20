@@ -1,4 +1,9 @@
 @media screen and (max-width: 430px) {
+
+  .custom-shape-divider-top-1675182074 svg {
+    height: 420px ;
+  }
+
   .container {
     max-width: 400px;
   }
@@ -44,6 +49,7 @@
   .marquee {
     height: auto;
     text-align: center;
+    height: max-content;
   }
 
   .marquee-content {
@@ -55,6 +61,7 @@
 
   .marquee-content li {
    width: 110px;
+   height: 100px;
   }
 
                          
