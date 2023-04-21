@@ -16,7 +16,7 @@ for (const icon of marqueItems) {
   const liContent = `
       <div class="icon-wrap">
       <i class="${icon.className}"></i>
-      <div>${icon.name}</div>
+      <div class="">${icon.name}</div>
       </div>
        `;
   listItem.innerHTML = liContent;
@@ -30,7 +30,7 @@ for (const icon of marqueItems) {
   const liContent = `
   <div class="icon-wrap">
   <i class="${icon.className}"></i>
-  <div>${icon.name}</div>
+  <div class="">${icon.name}</div>
   </div>
        `;
   listItem.innerHTML = liContent;

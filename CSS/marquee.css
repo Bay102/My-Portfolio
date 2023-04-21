@@ -1,7 +1,7 @@
 :root {
   --marquee-width: 80vw;
   --marquee-height: 15vh;
-  --marquee-elms-displayed: 5;
+  --marquee-elms-displayed: 10;
   --marquee-elm-width: calc(
     var(--marquee-width) / var(--marquee-elms-displayed)
   );
@@ -89,5 +89,6 @@
 @media (max-width: 450px) {
   :root {
     --marquee-elms-displayed: 3;
+
   }
 }

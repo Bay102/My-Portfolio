@@ -1,17 +1,17 @@
 const cardTiles = [
   {
     item: 'web',
+    open: 'nancys',
+    image: 'Photos/Screen Shot 2023-01-30 at 6.51.36 AM.png',
+    div: 'Javascript',
+    h3: 'Pet Care App',
+  },
+  {
+    item: 'web',
     open: 'saas',
     image: 'Photos/Screen Shot 2023-01-31 at 12.17.08 PM.png',
     div: 'HTML/CSS',
     h3: 'Saas Website',
-  },
-  {
-    item: 'javascript',
-    open: 'bark',
-    image: '/Photos/Screen Shot 2023-01-30 at 6.14.31 AM.png',
-    div: 'Javascript w/ API',
-    h3: 'Dog Instagram',
   },
   {
     item: 'javascript',
@@ -21,10 +21,17 @@ const cardTiles = [
     h3: 'Folio',
   },
   {
+    item: 'javascript',
+    open: 'bark',
+    image: '/Photos/Screen Shot 2023-01-30 at 6.14.31 AM.png',
+    div: 'Javascript w/ API',
+    h3: 'Dog Instagram',
+  },
+  {
     item: 'react',
     open: 'extremeMachines',
     image: 'Photos/ExtremeMachines.png',
-    div: 'E-Commerce Store',
+    div: 'React E-Commerce Store',
     h3: 'Extreme Machines',
   },
   {
@@ -33,13 +40,6 @@ const cardTiles = [
     image: 'Photos/Screen Shot 2023-03-26 at 8.17.16 AM.png',
     div: 'TypeScript & React',
     h3: 'Taskify ToDo App',
-  },
-  {
-    item: 'web',
-    open: 'nancys',
-    image: 'Photos/Screen Shot 2023-01-30 at 6.51.36 AM.png',
-    div: 'Javascript',
-    h3: 'Pet Care App',
   },
   {
     item: 'react',
@@ -62,13 +62,13 @@ const cardTiles = [
     div: 'REACT',
     h3: 'Credit/Debit Card Validator',
   },
-  // {
-  //   item: "",
-  //   open: "",
-  //   image: "",
-  //   div: "",
-  //   h3: "",
-  // },
+  {
+    item: "javascript",
+    open: "battleship",
+    image: "Photos/Screen Shot 2023-04-20 at 11.09.16 PM.png",
+    div: "Javascript",
+    h3: "Battleship in the Terminal",
+  },
 ];
 
 const portfolioGrid = document.querySelector('.portfolioTiles');
@@ -125,7 +125,7 @@ const serviceCards = [
   {
     id: 'taskify',
     h3: 'Taskify ToDo App',
-    link: 'taskify-black.vercel.app',
+    link: 'https://taskify-black.vercel.app',
     image: 'Photos/Screen Shot 2023-03-26 at 8.17.16 AM.png',
     description: `<p><strong>Taskify ToDo App</strong></p>
    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -139,7 +139,7 @@ const serviceCards = [
   {
     id: 'nancys',
     h3: 'Pet Care App',
-    link: 'nancys-pet-care.vercel.app',
+    link: 'https://nancys-pet-care.vercel.app',
     image: 'Photos/Screen Shot 2023-01-30 at 6.51.36 AM.png',
     description: `<p><strong>Pet Boarding App</strong></p>
   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -153,7 +153,7 @@ const serviceCards = [
   {
     id: 'emoji',
     h3: 'React Game',
-    link: 'emoji-slots.vercel.app ',
+    link: 'https://emoji-slots.vercel.app ',
     image: 'Photos/Screen Shot 2023-01-30 at 6.42.21 AM.png',
     description: `<p><strong>Emoji Slot Machine Concept</strong></p>
     <p> ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -182,7 +182,7 @@ const serviceCards = [
   {
     id: 'saas',
     h3: 'Saas Website',
-    link: 'front-saas-alpha.vercel.app',
+    link: 'https://front-saas-alpha.vercel.app',
     image: 'Photos/Screen Shot 2023-01-31 at 12.17.08 PM.png',
     description: `<p><strong>Saas Website</strong></p>
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -196,7 +196,7 @@ const serviceCards = [
   {
     id: 'folio',
     h3: 'Folio',
-    link: '',
+    link: 'https://folio-chi-eight.vercel.app ',
     image: 'Photos/Screen Shot 2023-01-31 at 8.08.24 PM.png',
     description: `<p><strong>Portfolio Concept</strong></p>
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -210,9 +210,23 @@ const serviceCards = [
   {
     id: 'cardValidator',
     h3: 'Card Validator',
-    link: 'debt-calculator-y15q.vercel.app',
+    link: 'https://debt-calculator-y15q.vercel.app',
     image: 'Photos/Screen Shot 2023-02-06 at 2.03.27 PM.png',
     description: `<p><strong>Bank Card Validator</strong></p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+     eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+     enim ad minim veniam</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+     eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+     enim ad minim veniam</p> 
+  `,
+  },
+  {
+    id: 'battleship',
+    h3: 'battleship',
+    link: '',
+    image: 'Photos/Screen Shot 2023-04-20 at 11.09.16 PM.png',
+    description: `<p><strong>Battleship in the Terminal</strong></p>
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
      eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
      enim ad minim veniam</p>
@@ -234,7 +248,9 @@ const createCards = () => {
           <h3>${h3}</h3>
           <i class="fas fa-times" data-service></i>
           </header>
-          <h4>Link: ${link}</h4>
+          <h4>
+          <a href="${link}">Click Here to Visit</a>
+          </h4>
           <div class="modal-body">
           <div class="img-wrapper">
           <img src="${image}">

@@ -21,10 +21,6 @@
     width: 100%;
   }
 
-  .me {
-    width: 0;
-  }
-
   .code-icon {
     position: relative;
   }
@@ -35,7 +31,7 @@
     font-size: 15px;
   }
 
-  .me img {
+  .me {
     display: none;
   }
 
