@@ -223,7 +223,7 @@ const serviceCards = [
   },
   {
     id: 'battleship',
-    h3: 'battleship',
+    h3: 'Battleship',
     link: '',
     image: 'Photos/Screen Shot 2023-04-20 at 11.09.16 PM.png',
     description: `<p><strong>Battleship in the Terminal</strong></p>

@@ -257,6 +257,27 @@
   color: (var(--color-text));
 }
 
+.sub-header-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.github-button, .linkedIn-button  {
+  border: 2px solid black;
+  border-radius: 25px;
+  padding: 0px 10px;
+  margin-top: 10px;
+  /* margin-bottom: 20px ; */
+  background-color: #1b1b1b;
+  color: white;
+}
+
+.linkedIn-button:hover, .github-button:hover {
+  background-color: #2d4280;
+  cursor: pointer;
+}
+
 .code-icon .fa-code {
   font-size: 2rem;
   display: inline-block;

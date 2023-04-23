@@ -4,7 +4,6 @@
     <script>
       window.addEventListener('DOMContentLoaded', function () {
         document.querySelector('.loading-screen').style.display = 'block';
-
         setTimeout(function () {
           document.querySelector('.loading-screen').style.display = 'none';
         }, 3300); // Hide the loading screen after 3.8 seconds
@@ -12,6 +11,7 @@
     </script>
     <!-- <script src="/JS/loadingScreen.js"></script> -->
     <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/Photos/codebay_logo.svg" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
@@ -28,7 +28,6 @@
     <link rel="stylesheet" href="/CSS/pages.css" />
     <link rel="stylesheet" href="/CSS/marquee.css" />
     <link rel="stylesheet" href="/CSS/responsive.css" />
-
     <title>CodeBAY</title>
   </head>
   <body>
@@ -126,12 +125,17 @@
             <div class="codeeatsleep">
               <div class="code-icon">
                 <img src="/Photos/codebay_logo.svg" alt="" />
+                <div class="sub-header-buttons">
+                  <div onclick="window.location.href='https://github.com/bay102'" class="github-button">GITHUB</div>
+                  <div onclick="window.location.href='https://linkedin.com/in/zakbay'" class="linkedIn-button">LINKEDIN</div>
+                </div>
               </div>
               <h2 class="header-lg">Hi! I'm Zak</h2>
               <div class="sub-header">
                 Welcome to my coding portfolio 
                 <br />
                 I specialize in creating exceptional web experiences <br> for brands and products.
+                <br />
               </div>
             </div>
             <div class="me">
@@ -211,7 +215,7 @@
               </div>
               <p>
                 I am a web developer with a passion for creating engaging and
-                interactive websites. With years of experience under my belt, I have
+                interactive websites/apps. With years of experience under my belt, I have
                 honed my skills in JavaScript, React and more. Allowing me to create
                 dynamic and responsive websites that provide users with a seamless
                 browsing experience.
