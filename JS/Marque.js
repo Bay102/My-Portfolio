@@ -1,11 +1,11 @@
 const marqueItems = [
-  { name: 'MONGO.DB', className: '' },
-  { name: 'JAVASCRIPT', className: 'fa-brands fa-square-js' },
-  { name: 'SQL', className: '' },
-  { name: 'REACT', className: 'fab fa-react' },
-  { name: 'TYPESCRIPT', className: '' },
   { name: 'HTML5', className: 'fa-brands fa-html5' },
   { name: 'CSS3', className: 'fa-brands fa-css3-alt' },
+  { name: 'JAVASCRIPT', className: 'fa-brands fa-square-js' },
+  { name: 'TYPESCRIPT', className: '' },
+  { name: 'REACT', className: 'fab fa-react' },
+  { name: 'SQL', className: '' },
+  { name: 'MONGO.DB', className: '' },
   { name: 'GITHUB', className: 'fab fa-github' },
   { name: '', className: 'fab fa-node' },
 ];
@@ -45,6 +45,6 @@ const marqueeContent = document.querySelector('ul.marquee-content');
 
 rooot.style.setProperty('--marquee-elms', marqueeContent.children.length);
 
-for (let i = 0; i < elmsDisplayed; i += 1) {
-  marqueeContent.appendChild(marqueeContent.children[i]);
-}
+// for (let i = 0; i < elmsDisplayed; i += 1) {
+//   marqueeContent.appendChild(marqueeContent.children[i]);
+// }
