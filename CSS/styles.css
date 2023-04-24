@@ -91,23 +91,10 @@
 
 .navbar {
   display: flex;
+  justify-content: center;
   flex-flow: row nowrap;
   padding: (0.5rem 1rem);
   width: 100%;
-}
-
-.navbar-nav {
-  margin-left: auto;
-}
-
-.brand-logo {
-  padding: 10px;
-}
-
-.brand-logo a h2 {
-  font-size: 1.5rem;
-  letter-spacing: -0.5px;
-  line-height: 1.42;
 }
 
 .main-menu {
