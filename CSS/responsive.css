@@ -3,6 +3,10 @@
     height: 420px;
   }
 
+  .navbar {
+    justify-content: center;
+  }
+
   .container {
     max-width: 400px;
   }
