@@ -120,15 +120,38 @@
   display: flex;
   text-align: center;
   padding: 0.5rem 0;
-  gap: 20px;
   justify-content: flex-end;
+}
+
+.sub-header {
+  font-family: copperplate;
+  font-size: 1.3rem;
+}
+
+.intro {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: 0;
+  padding-top: 1.25rem;
+  padding-bottom: 1.875rem;
+  padding-left: 15px;
+  padding-right: 15px;
+  background: #0505055c;
+  border-radius: 30px;
+  width: 600px;
+}
+
+.my_name {
+  font-size: 60px;
+  font-family: copperplate;
 }
 
 .me {
   position: relative;
   top: 50px;
   width: 50%;
-  margin: auto;
+  margin: 80px auto;
 }
 
 .me img {
@@ -137,6 +160,10 @@
 
 .codeeatsleep {
   width: 50%;
+}
+
+.header-lg {
+  font-size: 25px;
 }
 
 .modal {
@@ -335,9 +362,9 @@
 .portfolio-card {
   position: relative;
   margin: 0 1rem 1.85rem;
-  max-width: 255px;
+  /* max-width: 355px; */
   width: 100%;
-  width: 250px;
+  width: 400px;
   height: 250px;
 }
 

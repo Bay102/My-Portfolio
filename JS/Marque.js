@@ -1,13 +1,16 @@
 const marqueItems = [
   { name: 'HTML5', className: 'fa-brands fa-html5' },
   { name: 'CSS3', className: 'fa-brands fa-css3-alt' },
+  { name: 'TAILWIND', className: 'devicon-tailwindcss-plain colored' },
   { name: 'JAVASCRIPT', className: 'fa-brands fa-square-js' },
-  { name: 'TYPESCRIPT', className: '' },
+  { name: 'TYPESCRIPT', className: 'devicon-typescript-plain colored' },
   { name: 'REACT', className: 'fab fa-react' },
-  { name: 'SQL', className: '' },
-  { name: 'MONGO.DB', className: '' },
+  { name: 'NEXT.js', className: 'devicon-nextjs-plain' },
+  { name: 'postgreSQL', className: 'devicon-postgresql-plain colored' },
+  { name: 'EXPRESS', className: 'devicon-express-original' },
   { name: 'GITHUB', className: 'fab fa-github' },
   { name: '', className: 'fab fa-node' },
+  { name: 'FIREBASE', className: 'devicon-firebase-plain' },
 ];
 
 const marqueeHero = document.querySelector('.marqueeHero');

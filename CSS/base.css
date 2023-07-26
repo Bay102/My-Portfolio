@@ -37,6 +37,7 @@ h4 {
    margin-bottom: 0.5rem;
 }
 
+
 p {margin-top: 0;}
 button { outline: none;}
 
@@ -101,16 +102,5 @@ button:not(.disabled):not(.disabled) {
    padding-bottom: 1.875rem;
 }
 
-.sub-header {
-   font-family: copperplate;
-   font-size: 1.3rem;
-   line-height: 2.0;
-   padding-top: 1.25rem;
-   padding-bottom: 1.875rem;
-   padding-left: 15px;
-   padding-right: 15px;
-   background: #0505055c;
-   border-radius: 30px;
-   width: max-content;
-}
+
 
