@@ -69,6 +69,14 @@ const cardTiles = [
     div: "Javascript",
     h3: "Battleship in the Terminal",
   },
+  {
+    item: "cheatsave",
+    open: "cheatsave",
+    image: "Photos/Screen Shot 2023-04-20 at 11.09.16 PM.png",
+    div: "React/Typescript",
+    h3: "A CheatCode App",
+  },
+
 ];
 
 const portfolioGrid = document.querySelector('.portfolioTiles');
@@ -235,6 +243,20 @@ const serviceCards = [
      enim ad minim veniam</p> 
   `,
   },
+  {
+    id: 'cheatsave',
+    h3: 'CheatSave',
+    link: '',
+    image: 'Photos/Screen Shot 2023-04-20 at 11.09.16 PM.png',
+    description: `<p><strong>A CheatCode App</strong></p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+     eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+     enim ad minim veniam</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+     eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+     enim ad minim veniam</p> 
+  `,
+  }
 ];
 
 const createCards = () => {

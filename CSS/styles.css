@@ -125,7 +125,10 @@
 }
 
 .me {
+  position: relative;
+  top: 50px;
   width: 50%;
+  margin: auto;
 }
 
 .me img {
