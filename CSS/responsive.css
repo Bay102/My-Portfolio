@@ -1,4 +1,4 @@
-@media screen and (max-width: 430px) {
+@media screen and (max-width: 400px) {
 
   .navbar {
     justify-content: center;
@@ -8,7 +8,9 @@
   }
 
   .container {
-    max-width: 400px;
+    /* max-width: 400px; */
+    padding: 0;
+    margin: 0;
   }
 
   .main-menu .nav-item {
@@ -100,5 +102,10 @@
 
   .portfolioTiles {
     gap: 0;
+    width: 380px;
+  }
+
+  .portfolio-card {
+    margin: 15px auto;
   }
 }

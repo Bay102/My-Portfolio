@@ -358,13 +358,12 @@
   justify-content: center;
   gap: 20px;
   background-color: #181a23;
-  overflow-x: scroll;
 }
 
 .portfolio-grid {
   display: flex;
   flex-wrap: wrap;
-  padding: 3rem 1rem;
+  /* padding: 3rem 1rem; */
   justify-content: center;
 }
 
