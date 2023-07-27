@@ -48,7 +48,67 @@ for (const elm of closeService) {
    })
 }
 
+//////////////////////////////////////////////////////////////////////
 
+// Projects Filter Nav 
+const dataFilter = '[data-filter]';
+const servicesData = "[data-item]";
+const active = 'active'; 
+
+// const setActive = (elm, selector) => {
+//    if (document.querySelector(`${selector}.${active}`) !== null) {
+//       document.querySelector(`${selector}.${active}`).classList.remove(active);
+//    } 
+//    elm.classList.add(active)
+// }
+
+const setActive = (elm, selector) => {
+   if (document.querySelector(`${selector}.${active}`) !== null) {
+      document.querySelector(`${selector}.${active}`).classList.remove(active);
+   } 
+   elm.classList.add(active)
+}
+
+
+
+
+   const filterLink = document.querySelectorAll(dataFilter); //  Node list of all HTML tags with data-filter
+   const servicesItems = document.querySelectorAll(servicesData); //  Node list of all HTML tags with data-item
+
+   for (const link of filterLink) {
+      link.addEventListener('click', function() {
+         setActive(link, '.filter-link');
+         const filter = this.dataset.filter;
+         servicesItems.forEach((card) => {
+            if (filter === 'all') {
+               card.style.display = 'block';
+            } else if (card.dataset.item === filter) {
+               card.style.display = 'block';
+            } else {
+               card.style.display = 'none';
+            }
+         })
+      })
+   }
+
+   // for (const link of filterLink) {
+   //    link.addEventListener('click', function() {
+   //       setActive(link, '.filter-link');
+   //       const filter = this.dataset.filter;
+   //       servicesItems.forEach((card) => {
+   //          if (filter === 'all') {
+   //             card.style.display = 'block';
+   //          } else if (card.dataset.item === filter) {
+   //             card.parentElement.appendChild(card);
+   //          } else {
+   //             card.parentElement.remove(card)
+   //          }
+   //       })
+   //    })
+   // }
+
+
+//////////////////////////////////////////////////////////////////////
 
 
 

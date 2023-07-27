@@ -97,6 +97,8 @@
   }
 
   .portfolioTiles {
+    flex-direction: column;
+    margin: auto;
     gap: 0;
   }
 

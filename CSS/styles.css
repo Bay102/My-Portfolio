@@ -237,6 +237,19 @@
   color: black;
 }
 
+.projectsWrapper {
+  width: 100%;
+  overflow-x: scroll;
+  margin: auto
+}
+
+.portfolio-section {
+  background-color: #181a23d8;
+  position: relative;
+  z-index: 1;
+  padding: 25px 0;
+}
+
 .projectsTitle {
   text-align: center;
   font-size: 30px;
@@ -251,13 +264,14 @@
 
 .portfolio-filter-nav {
   display: flex;
+  justify-content: center;
   flex-wrap: wrap;
   padding: 2rem 0;
 }
 
 .portfolio-filter-nav .filter-link {
   padding: 0 1rem;
-  font-size: 0.8125rem;
+  font-size: 0.9125rem;
   line-height: 1.6;
   letter-spacing: 1.63px;
   font-weight: 700;
@@ -273,12 +287,14 @@
 
 .portfolioTiles {
   position: relative;
+  width: fit-content;
   z-index: 1;
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   justify-content: center;
   gap: 20px;
-  background-color: #181a23;
+  /* overflow-x: scroll; */
+  /* background-color: #181a23; */
 }
 
 .portfolio-grid {

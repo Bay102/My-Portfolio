@@ -6,7 +6,7 @@
         document.querySelector('.loading-screen').style.display = 'block';
         setTimeout(function () {
           document.querySelector('.loading-screen').style.display = 'none';
-        }, 4000); // Hide the loading screen after 3.8 seconds
+        }, 4000); // Hide the loading screen time
       });
     </script>
     <meta charset="UTF-8" />
@@ -149,13 +149,16 @@
         <div class="container search-container">
           <ul class="portfolio-filter-nav ul-defaults-none">
             <li data-filter="all" class="filter-link active">All</li>
-            <li data-filter="web" class="filter-link">Web Development</li>
-            <li data-filter="react" class="filter-link">REACT</li>
-            <li data-filter="javascript" class="filter-link">Javascript</li>
+            <li data-filter="full-stack" class="filter-link">Full-Stack</li>
+            <li data-filter="front-end" class="filter-link">Front-End</li>
+            <li data-filter="back-end" class="filter-link">Back-End</li>
           </ul>
         </div>
-        <div class="portfolioTiles"></div>
-        <div class="portfolioPopups"></div>
+        <div class="projectsWrapper">
+          <div class="portfolioTiles"></div>
+          <div class="portfolioPopups"></div>
+
+        </div>
       </section>
       <!------------- Modals ---------------->
 

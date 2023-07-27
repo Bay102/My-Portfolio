@@ -1,90 +1,97 @@
 const cardTiles = [
   {
-    item: 'react',
+    item: 'full-stack',
+    open: 'RE-JATC',
+    image: 'Photos/NonProfit.png',
+    div: 'React | Typescript',
+    h3: 'RE-JATC | Admins Portal',
+  },
+  {
+    item: 'full-stack',
     open: 'extremeMachines',
     image: 'Photos/ExtremeMachines.png',
     div: 'React E-Commerce Store',
     h3: 'Extreme Machines',
   },
   {
-    item: 'react',
+    item: 'front-end',
     open: 'taskify',
     image: 'Photos/Screen Shot 2023-03-26 at 8.17.16 AM.png',
     div: 'TypeScript & React',
     h3: 'Taskify ToDo App',
   },
   {
-    item: 'web',
+    item: 'front-end',
     open: 'saas',
     image: 'Photos/Screen Shot 2023-01-31 at 12.17.08 PM.png',
     div: 'HTML/CSS',
     h3: 'Saas Website',
   },
   {
-    item: 'react',
+    item: 'front-end',
     open: 'cardValidator',
     image: 'Photos/Screen Shot 2023-02-06 at 2.03.27 PM.png',
     div: 'REACT',
     h3: 'Credit/Debit Card Validator',
   },
   {
-    item: 'web',
+    item: 'full-stack',
     open: 'nancys',
     image: 'Photos/Screen Shot 2023-01-30 at 6.51.36 AM.png',
     div: 'Javascript',
     h3: 'Pet Care App',
   },
   {
-    item: 'javascript',
+    item: 'front-end',
     open: 'folio',
     image: 'Photos/Screen Shot 2023-01-31 at 8.08.24 PM.png',
     div: 'Javascript',
     h3: 'Folio',
   },
   {
-    item: 'javascript',
+    item: 'full-stack',
     open: 'bark',
     image: '/Photos/Screen Shot 2023-01-30 at 6.14.31 AM.png',
     div: 'Javascript w/ API',
     h3: 'Dog Instagram',
   },
   {
-    item: 'react',
+    item: 'front-end',
     open: 'emoji',
     image: 'Photos/Screen Shot 2023-01-30 at 6.42.21 AM.png',
     div: 'React',
     h3: 'Slot Machine',
   },
   {
-    item: 'react',
+    item: 'front-end',
     open: 'debtCalc',
     image: 'Photos/Screen Shot 2023-01-31 at 8.16.40 AM.png',
     div: 'React',
     h3: 'Debt Calculator',
   },
   {
-    item: "javascript",
+    item: "back-end",
     open: "battleship",
     image: "Photos/Screen Shot 2023-04-20 at 11.09.16 PM.png",
     div: "Javascript",
     h3: "Battleship in the Terminal",
   },
   {
-    item: "cheatsave",
+    item: "full-stack",
     open: "cheatsave",
     image: "",
     div: "React/Typescript",
     h3: "A CheatCode App",
   },
   {
-    item: "react",
+    item: "full-stack",
     open: "fanspace",
     image: "",
     div: "Mobile App | React Native",
     h3: "FanSpace",
   },
   {
-    item: "NPC Members",
+    item: "full-stack",
     open: "npc_members",
     image: "",
     div: "React/Typescript",
@@ -116,6 +123,18 @@ for (const tile of cardTiles) {
 const eachCard = document.querySelector('.portfolioPopups');
 
 const serviceCards = [
+  {
+    id: 're-jatc',
+    h3: 'RE-JATC',
+    link: '',
+    image: 'Photos/NonProfit.png',
+    description: `<p><strong>Admins Portal</strong></p>
+    <p>This App caters to the everyday sports fanatic</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+     eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+     enim ad minim veniam</p> 
+  `,
+  },
   {
     id: 'extremeMachines',
     h3: 'Extreme Machines',
