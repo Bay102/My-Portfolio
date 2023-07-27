@@ -27,7 +27,7 @@
   }
 
   .intro {
-    width: auto;
+    width: 95%;
     margin-top: 200px;
   }
 
@@ -102,10 +102,10 @@
 
   .portfolioTiles {
     gap: 0;
-    width: 380px;
   }
 
   .portfolio-card {
     margin: 15px auto;
+    width: 360px;
   }
 }
