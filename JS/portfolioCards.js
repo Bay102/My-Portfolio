@@ -1,5 +1,19 @@
 const cardTiles = [
   {
+    item: 'react',
+    open: 'extremeMachines',
+    image: 'Photos/ExtremeMachines.png',
+    div: 'React E-Commerce Store',
+    h3: 'Extreme Machines',
+  },
+  {
+    item: 'react',
+    open: 'taskify',
+    image: 'Photos/Screen Shot 2023-03-26 at 8.17.16 AM.png',
+    div: 'TypeScript & React',
+    h3: 'Taskify ToDo App',
+  },
+  {
     item: 'web',
     open: 'nancys',
     image: 'Photos/Screen Shot 2023-01-30 at 6.51.36 AM.png',
@@ -26,20 +40,6 @@ const cardTiles = [
     image: '/Photos/Screen Shot 2023-01-30 at 6.14.31 AM.png',
     div: 'Javascript w/ API',
     h3: 'Dog Instagram',
-  },
-  {
-    item: 'react',
-    open: 'extremeMachines',
-    image: 'Photos/ExtremeMachines.png',
-    div: 'React E-Commerce Store',
-    h3: 'Extreme Machines',
-  },
-  {
-    item: 'react',
-    open: 'taskify',
-    image: 'Photos/Screen Shot 2023-03-26 at 8.17.16 AM.png',
-    div: 'TypeScript & React',
-    h3: 'Taskify ToDo App',
   },
   {
     item: 'react',
@@ -72,9 +72,23 @@ const cardTiles = [
   {
     item: "cheatsave",
     open: "cheatsave",
-    image: "Photos/Screen Shot 2023-04-20 at 11.09.16 PM.png",
+    image: "",
     div: "React/Typescript",
     h3: "A CheatCode App",
+  },
+  {
+    item: "FanSpace",
+    open: "fanspace",
+    image: "",
+    div: "Mobile App | React Native",
+    h3: "FanSpace",
+  },
+  {
+    item: "NPC Members",
+    open: "npc_members",
+    image: "",
+    div: "React/Typescri1",
+    h3: "Members Portal | N.P.C",
   },
 
 ];
@@ -252,6 +266,18 @@ const serviceCards = [
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
      eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
      enim ad minim veniam</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+     eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+     enim ad minim veniam</p> 
+  `,
+  },
+  {
+    id: 'fanspace',
+    h3: 'FanSpace',
+    link: '',
+    image: '',
+    description: `<p><strong>Sports App</strong></p>
+    <p>This App caters to the everyday sports fanatic</p>
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
      eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
      enim ad minim veniam</p> 

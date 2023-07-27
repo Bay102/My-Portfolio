@@ -1,5 +1,4 @@
 const marqueItems = [
-  { name: 'HTML5', className: 'fa-brands fa-html5' },
   { name: 'CSS3', className: 'fa-brands fa-css3-alt' },
   { name: 'TAILWIND', className: 'devicon-tailwindcss-plain colored' },
   { name: 'JAVASCRIPT', className: 'fa-brands fa-square-js' },
@@ -11,6 +10,8 @@ const marqueItems = [
   { name: 'GITHUB', className: 'fab fa-github' },
   { name: '', className: 'fab fa-node' },
   { name: 'FIREBASE', className: 'devicon-firebase-plain' },
+  { name: 'HTML5', className: 'fa-brands fa-html5' },
+  { name: 'VISUALSTUDIO', className: 'devicon-visualstudio-plain' },
 ];
 
 const marqueeHero = document.querySelector('.marqueeHero');

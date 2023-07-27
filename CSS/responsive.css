@@ -21,6 +21,10 @@
     justify-content: center;
   }
 
+  .intro {
+    width: auto;
+  }
+
   .codeeatsleep {
     width: 100%;
   }

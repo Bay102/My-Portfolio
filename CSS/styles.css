@@ -350,6 +350,7 @@
   flex-wrap: wrap;
   justify-content: center;
   gap: 20px;
+  overflow-x: scroll;
 }
 
 .portfolio-grid {
@@ -360,38 +361,43 @@
 }
 
 .portfolio-card {
+  display: flex;
+  justify-content: center;
   position: relative;
   margin: 0 1rem 1.85rem;
   /* max-width: 355px; */
   width: 100%;
-  width: 400px;
-  height: 250px;
+  width: 500px;
+  height: 275px;
 }
 
 .card-body img {
-  width: 100%;
-  height: 250px;
-  object-fit: cover;
+  /* width: 50%; */
+  height: 275px;
+  /* object-fit: cover; */
   border-radius: 8px;
   box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
     rgba(241, 238, 238, 0.22) 0px 15px 12px;
+  
 }
 
 .card-popup-box {
   position: absolute;
   bottom: 0;
-  left: 20px;
-  right: 20px;
+  left: 130px;
+  /* right: 20px; */
   transition: 0.4s;
   z-index: 1;
   padding: 1rem 1rem;
   opacity: 1;
+  width: 250px;
 }
 
 .card-popup-box:before {
   position: absolute;
   content: '';
-  background: var(--bg);
+  /* background: var(--bg); */
+  background: gray;
   top: 0;
   left: 0;
   right: 0;

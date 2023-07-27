@@ -5,7 +5,7 @@
   --marquee-elm-width: calc(
     var(--marquee-width) / var(--marquee-elms-displayed)
   );
-  --marquee-duration-animation: calc(var(--marquee-elms) * 2.5s);
+  --marquee-duration-animation: calc(var(--marquee-elms) * 1.5s);
 }
 
 .marquee {
