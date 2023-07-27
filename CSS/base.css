@@ -20,7 +20,7 @@ body {
    background-image: url("/Photos/hero-pattern.webp");
    background-color: var(--bg);
    text-align: left;
-   overflow: hidden;
+   overflow-x: hidden;
 }
 
 a {
