@@ -47,12 +47,16 @@
 .about-text .contact-me-block {
   font-size: 1.2rem;
 }
+#about .img-wrapper,
+#about.about-text {
+  flex: initial;
+  margin: 0px 30px 25px;
+}
 
-@media (max-width: 991px) {
-  #about .img-wrapper,
-  #about.about-text {
-    flex: initial;
-    margin: 0 auto;
+@media (max-width: 600px) {
+
+  .header-md {
+    font-size: 25px;
   }
 
   .page-block {

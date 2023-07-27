@@ -1,4 +1,5 @@
 const marqueItems = [
+  { name: 'HTML5', className: 'fa-brands fa-html5' },
   { name: 'CSS3', className: 'fa-brands fa-css3-alt' },
   { name: 'TAILWIND', className: 'devicon-tailwindcss-plain colored' },
   { name: 'JAVASCRIPT', className: 'fa-brands fa-square-js' },
@@ -10,7 +11,6 @@ const marqueItems = [
   { name: 'GITHUB', className: 'fab fa-github' },
   { name: 'NODE', className: 'devicon-nodejs-plain' },
   { name: 'FIREBASE', className: 'devicon-firebase-plain' },
-  { name: 'HTML5', className: 'fa-brands fa-html5' },
   { name: 'VISUALSTUDIO', className: 'devicon-visualstudio-plain' },
 ];
 
@@ -49,6 +49,8 @@ const marqueeContent = document.querySelector('ul.marquee-content');
 
 rooot.style.setProperty('--marquee-elms', marqueeContent.children.length);
 
-for (let i = 0; i < elmsDisplayed; i += 1) {
-  marqueeContent.appendChild(marqueeContent.children[i].cloneNode(true));
+if (window.innerWidth <= '400px') {
+  for (let i = 0; i < elmsDisplayed; i += 1) {
+    marqueeContent.appendChild(marqueeContent.children[i].cloneNode(true));
+  }
 }

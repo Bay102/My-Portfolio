@@ -9,23 +9,6 @@
    --dev-icons: #495fef;
 }
 
-[data-theme="dark"] .hero-bg {
-   background-image: url("/images/hero-pattern.webp");
-   background-position: center;
-   background-repeat: no-repeat;
-   background-size: cover;
-}
-
-[data-theme="light"] {
-   --bg: #171a23;
-   --bg-panel: #f1f1f1;
-   --color-headings: #fff;
-   --color-text-opacity: rgba(255, 255, 255,0.7);
-   --color-text: #fff;
-   --color-text-base: #161c2d;
-   --border: #ced4da;
-}
-
 /* Shapes Background at top of page */
 .custom-shape-divider-top-1675182074 {
    position: fixed;
