@@ -7,20 +7,6 @@ const cardTiles = [
     h3: 'Extreme Machines',
   },
   {
-    item: 'web',
-    open: 'nancys',
-    image: 'Photos/Screen Shot 2023-01-30 at 6.51.36 AM.png',
-    div: 'Javascript',
-    h3: 'Pet Care App',
-  },
-  {
-    item: 'javascript',
-    open: 'folio',
-    image: 'Photos/Screen Shot 2023-01-31 at 8.08.24 PM.png',
-    div: 'Javascript',
-    h3: 'Folio',
-  },
-  {
     item: 'react',
     open: 'taskify',
     image: 'Photos/Screen Shot 2023-03-26 at 8.17.16 AM.png',
@@ -33,6 +19,27 @@ const cardTiles = [
     image: 'Photos/Screen Shot 2023-01-31 at 12.17.08 PM.png',
     div: 'HTML/CSS',
     h3: 'Saas Website',
+  },
+  {
+    item: 'react',
+    open: 'cardValidator',
+    image: 'Photos/Screen Shot 2023-02-06 at 2.03.27 PM.png',
+    div: 'REACT',
+    h3: 'Credit/Debit Card Validator',
+  },
+  {
+    item: 'web',
+    open: 'nancys',
+    image: 'Photos/Screen Shot 2023-01-30 at 6.51.36 AM.png',
+    div: 'Javascript',
+    h3: 'Pet Care App',
+  },
+  {
+    item: 'javascript',
+    open: 'folio',
+    image: 'Photos/Screen Shot 2023-01-31 at 8.08.24 PM.png',
+    div: 'Javascript',
+    h3: 'Folio',
   },
   {
     item: 'javascript',
@@ -54,13 +61,6 @@ const cardTiles = [
     image: 'Photos/Screen Shot 2023-01-31 at 8.16.40 AM.png',
     div: 'React',
     h3: 'Debt Calculator',
-  },
-  {
-    item: 'react',
-    open: 'cardValidator',
-    image: 'Photos/Screen Shot 2023-02-06 at 2.03.27 PM.png',
-    div: 'REACT',
-    h3: 'Credit/Debit Card Validator',
   },
   {
     item: "javascript",

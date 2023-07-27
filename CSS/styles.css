@@ -48,8 +48,8 @@
   display: flex;
   flex-direction: column;
   text-align: center;
-  margin-top: 115px;
-  margin-left: 150px;
+  margin-top: 125px;
+  margin-left: 130px;
   padding-top: 1.25rem;
   padding-bottom: 1.875rem;
   padding-left: 15px;
@@ -58,7 +58,7 @@
   border-radius: 30px;
   width: 600px;
   height: max-content;
-  box-shadow: rgba(45, 45, 198, 0.93) 0px 50px 100px -20px, rgba(26, 39, 217, 0.909) 0px 30px 60px -30px;
+  box-shadow: rgba(54, 32, 194, 0.937) 0px 25px 10px -10px;
 }
 
 .my_name {
@@ -188,7 +188,7 @@
 
 .code-icon {
   position: relative;
-  left: 235px;
+  left: 285px;
   top: -10px;
   /* background-color: #495ff0; */
   padding: 1.25rem 1.5rem;
