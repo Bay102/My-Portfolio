@@ -8,7 +8,7 @@ const marqueItems = [
   { name: 'postgreSQL', className: 'devicon-postgresql-plain colored' },
   { name: 'EXPRESS', className: 'devicon-express-original' },
   { name: 'GITHUB', className: 'fab fa-github' },
-  { name: '', className: 'fab fa-node' },
+  { name: 'NODE', className: 'devicon-nodejs-plain' },
   { name: 'FIREBASE', className: 'devicon-firebase-plain' },
   { name: 'HTML5', className: 'fa-brands fa-html5' },
   { name: 'VISUALSTUDIO', className: 'devicon-visualstudio-plain' },
@@ -49,6 +49,6 @@ const marqueeContent = document.querySelector('ul.marquee-content');
 
 rooot.style.setProperty('--marquee-elms', marqueeContent.children.length);
 
-// for (let i = 0; i < elmsDisplayed; i += 1) {
-//   marqueeContent.appendChild(marqueeContent.children[i]);
-// }
+for (let i = 0; i < elmsDisplayed; i += 1) {
+  marqueeContent.appendChild(marqueeContent.children[i].cloneNode(true));
+}

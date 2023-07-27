@@ -1,10 +1,10 @@
 @media screen and (max-width: 430px) {
-  .custom-shape-divider-top-1675182074 svg {
-    height: 420px;
-  }
 
   .navbar {
     justify-content: center;
+    position: fixed;
+    left: 130px;
+    z-index: 1;
   }
 
   .container {
@@ -13,6 +13,8 @@
 
   .main-menu .nav-item {
     font-size: 12px;
+    width: 90px;
+    text-align: center;
   }
 
   .hero-content {
@@ -23,6 +25,7 @@
 
   .intro {
     width: auto;
+    margin-top: 200px;
   }
 
   .codeeatsleep {
@@ -30,7 +33,9 @@
   }
 
   .code-icon {
-    position: relative;
+    position: fixed;
+    margin-top: 50px;
+    left: 75px
   }
 
   .sub-header {

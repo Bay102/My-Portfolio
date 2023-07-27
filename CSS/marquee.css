@@ -1,11 +1,16 @@
 :root {
   --marquee-width: 80vw;
   --marquee-height: 15vh;
-  --marquee-elms-displayed: 10;
+  --marquee-elms-displayed: 7;
   --marquee-elm-width: calc(
     var(--marquee-width) / var(--marquee-elms-displayed)
   );
-  --marquee-duration-animation: calc(var(--marquee-elms) * 1.5s);
+  --marquee-duration-animation: calc(var(--marquee-elms) * 3.5s);
+}
+
+.marqueeHeroWrapper {
+  position: relative;
+  z-index: -1;
 }
 
 .marquee {
@@ -19,7 +24,7 @@
 .marquee-content {
   list-style: none; 
   display: flex;
-  animation: scrolling var(--marquee-duration-animation) linear infinite;
+  animation: scrolling var(--marquee-duration-animation) linear infinite;  
 }
 
 .marquee-content li {
@@ -55,12 +60,12 @@
 
 .marquee:before {
   left: 0;
-  background: linear-gradient(to right, var(--bg) 0%, transparent 100%);
+  /* background: linear-gradient(to right, var(--bg) 0%, transparent 100%); */
 }
 
 .marquee:after {
   right: 0;
-  background: linear-gradient(to left, var(--bg) 0%, transparent 100%);
+  /* background: linear-gradient(to left, var(--bg) 0%, transparent 100%); */
 }
 
 @keyframes scrolling {

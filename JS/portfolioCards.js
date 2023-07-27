@@ -77,7 +77,7 @@ const cardTiles = [
     h3: "A CheatCode App",
   },
   {
-    item: "FanSpace",
+    item: "react",
     open: "fanspace",
     image: "",
     div: "Mobile App | React Native",
@@ -87,7 +87,7 @@ const cardTiles = [
     item: "NPC Members",
     open: "npc_members",
     image: "",
-    div: "React/Typescri1",
+    div: "React/Typescript",
     h3: "Members Portal | N.P.C",
   },
 
