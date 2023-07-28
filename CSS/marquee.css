@@ -1,11 +1,10 @@
 :root {
+  --marquee-elms: 30;
   --marquee-width: 80vw;
   --marquee-height: 15vh;
   --marquee-elms-displayed: 7;
-  --marquee-elm-width: calc(
-    var(--marquee-width) / var(--marquee-elms-displayed)
-  );
-  --marquee-duration-animation: calc(var(--marquee-elms) * 3.5s);
+  --marquee-elm-width: calc(var(--marquee-width) / var(--marquee-elms-displayed));
+  --marquee-duration-animation: calc(var(--marquee-elms) * 3.0s);
 }
 
 .marqueeHeroWrapper {
@@ -22,9 +21,9 @@
 }
 
 .marquee-content {
-  list-style: none; 
+  list-style: none;
   display: flex;
-  animation: scrolling var(--marquee-duration-animation) linear infinite;  
+  animation: scrolling var(--marquee-duration-animation) linear infinite;
 }
 
 .marquee-content li {
@@ -42,11 +41,17 @@
   flex-direction: column;
 }
 
-.icon-wrap i {font-size: 45px;}
+.icon-wrap i {
+  font-size: 45px;
+}
 
-.icon-wrap div {font-size: 15px;}
+.icon-wrap div {
+  font-size: 15px;
+}
 
-.marqueeHeroWrapper {  overflow: hidden;}
+.marqueeHeroWrapper {
+  overflow: hidden;
+}
 
 .marquee::before,
 .marquee::after {
@@ -54,18 +59,18 @@
   height: 100%;
   width: 10rem;
   top: 0;
-  content: "";
+  content: '';
   z-index: 1;
 }
 
 .marquee:before {
   left: 0;
-  /* background: linear-gradient(to right, var(--bg) 0%, transparent 100%); */
+  background: linear-gradient(to right, var(--bg) 0%, transparent 100%);
 }
 
 .marquee:after {
   right: 0;
-  /* background: linear-gradient(to left, var(--bg) 0%, transparent 100%); */
+  background: linear-gradient(to left, var(--bg) 0%, transparent 100%);
 }
 
 @keyframes scrolling {
@@ -73,9 +78,7 @@
     transform: translateX(0);
   }
   100% {
-    transform: translateX(
-      calc(-1 * var(--marquee-elm-width) * var(--marquee-elms))
-    );
+    transform: translateX(calc(-1 * var(--marquee-elm-width) * var(--marquee-elms)));
   }
 }
 
@@ -94,6 +97,5 @@
 @media (max-width: 450px) {
   :root {
     --marquee-elms-displayed: 3;
-
   }
 }

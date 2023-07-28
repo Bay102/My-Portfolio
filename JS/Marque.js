@@ -8,9 +8,9 @@ const marqueItems = [
   { name: 'NEXT.js', className: 'devicon-nextjs-plain' },
   { name: 'postgreSQL', className: 'devicon-postgresql-plain colored' },
   { name: 'EXPRESS', className: 'devicon-express-original' },
+  { name: 'FIREBASE', className: 'devicon-firebase-plain' },
   { name: 'GITHUB', className: 'fab fa-github' },
   { name: 'NODE', className: 'devicon-nodejs-plain' },
-  { name: 'FIREBASE', className: 'devicon-firebase-plain' },
   { name: 'VISUALSTUDIO', className: 'devicon-visualstudio-plain' },
 ];
 
@@ -49,8 +49,18 @@ const marqueeContent = document.querySelector('ul.marquee-content');
 
 rooot.style.setProperty('--marquee-elms', marqueeContent.children.length);
 
+// if (window.innerWidth > 400) {
+  
+//     for (let i = 0; i < elmsDisplayed; i += 1) {
+//       marqueeContent.appendChild(marqueeContent.children[i].cloneNode(true));
+//     }
+  
+// }
+
 if (window.innerWidth > 400) {
-  for (let i = 0; i < elmsDisplayed; i += 1) {
+  let i = 0;
+  while (i < elmsDisplayed) {
     marqueeContent.appendChild(marqueeContent.children[i].cloneNode(true));
+    // i += 1;
   }
 }

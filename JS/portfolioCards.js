@@ -138,15 +138,11 @@ const serviceCards = [
   {
     id: 'extremeMachines',
     h3: 'Extreme Machines',
-    link: '',
+    link: 'https://github.com/bay102/extrememachines',
     image: 'Photos/ExtremeMachines.png',
     description: `<p><strong>Extreme Machines</strong></p>
-   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-   eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-   enim ad minim veniam</p>
-   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-   eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-   enim ad minim veniam</p> 
+   <p>Inspired By GTA, This Project serves as a unique E-Commerce app</p>
+   <p></p> 
    `,
   },
   {
@@ -268,12 +264,8 @@ const serviceCards = [
     link: '',
     image: 'Photos/Screen Shot 2023-04-20 at 11.09.16 PM.png',
     description: `<p><strong>Battleship in the Terminal</strong></p>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-     eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-     enim ad minim veniam</p>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-     eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-     enim ad minim veniam</p> 
+    <p></p>
+    <p></p> 
   `,
   },
   {
@@ -282,12 +274,8 @@ const serviceCards = [
     link: '',
     image: 'Photos/cheatsave.png',
     description: `<p><strong>A CheatCode App</strong></p>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-     eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-     enim ad minim veniam</p>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-     eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-     enim ad minim veniam</p> 
+    <p></p>
+    <p></p> 
   `,
   },
   {
@@ -297,9 +285,7 @@ const serviceCards = [
     image: '',
     description: `<p><strong>Sports App</strong></p>
     <p>This App caters to the everyday sports fanatic</p>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-     eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-     enim ad minim veniam</p> 
+    <p></p> 
   `,
   },
   {
