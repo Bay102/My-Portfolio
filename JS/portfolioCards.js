@@ -3,36 +3,29 @@ const cardTiles = [
     item: 'full-stack',
     open: 'RE-JATC',
     image: 'Photos/NonProfit.png',
-    div: 'React | Typescript',
+    div: 'React | Typescript | Firebase',
     h3: 'RE-JATC | Admins Portal',
   },
   {
     item: 'full-stack',
     open: 'extremeMachines',
     image: 'Photos/ExtremeMachines.png',
-    div: 'React E-Commerce Store',
+    div: 'React E-Commerce Store | JSON Server',
     h3: 'Extreme Machines',
   },
   {
     item: 'front-end',
     open: 'taskify',
     image: 'Photos/Screen Shot 2023-03-26 at 8.17.16 AM.png',
-    div: 'TypeScript & React',
+    div: 'React | Typescript',
     h3: 'Taskify ToDo App',
   },
   {
     item: 'front-end',
     open: 'saas',
     image: 'Photos/Screen Shot 2023-01-31 at 12.17.08 PM.png',
-    div: 'HTML/CSS',
+    div: 'HTML | CSS | Javascript',
     h3: 'Saas Website',
-  },
-  {
-    item: 'front-end',
-    open: 'cardValidator',
-    image: 'Photos/Screen Shot 2023-02-06 at 2.03.27 PM.png',
-    div: 'REACT',
-    h3: 'Credit/Debit Card Validator',
   },
   {
     item: 'full-stack',
@@ -40,6 +33,20 @@ const cardTiles = [
     image: 'Photos/Screen Shot 2023-01-30 at 6.51.36 AM.png',
     div: 'Javascript',
     h3: 'Pet Care App',
+  },
+  {
+    item: "full-stack",
+    open: "cheatsave",
+    image: "Photos/cheatsave.png",
+    div: "React | Typescript | Express | SQLite",
+    h3: "A CheatCode App",
+  },
+  {
+    item: 'front-end',
+    open: 'cardValidator',
+    image: 'Photos/Screen Shot 2023-02-06 at 2.03.27 PM.png',
+    div: 'REACT',
+    h3: 'Credit/Debit Card Validator',
   },
   {
     item: 'front-end',
@@ -52,7 +59,7 @@ const cardTiles = [
     item: 'full-stack',
     open: 'bark',
     image: '/Photos/Screen Shot 2023-01-30 at 6.14.31 AM.png',
-    div: 'Javascript w/ API',
+    div: 'Javascript | API',
     h3: 'Dog Instagram',
   },
   {
@@ -73,28 +80,21 @@ const cardTiles = [
     item: "back-end",
     open: "battleship",
     image: "Photos/Screen Shot 2023-04-20 at 11.09.16 PM.png",
-    div: "Javascript",
-    h3: "Battleship in the Terminal",
-  },
-  {
-    item: "full-stack",
-    open: "cheatsave",
-    image: "",
-    div: "React/Typescript",
-    h3: "A CheatCode App",
+    div: "Javascript | Terminal Based Game",
+    h3: "Battleship",
   },
   {
     item: "full-stack",
     open: "fanspace",
     image: "",
-    div: "Mobile App | React Native",
+    div: "Mobile App | React Native | Supabase",
     h3: "FanSpace",
   },
   {
     item: "full-stack",
     open: "npc_members",
     image: "",
-    div: "React/Typescript",
+    div: "React | Typescript | Firebase",
     h3: "Members Portal | N.P.C",
   },
 
@@ -280,7 +280,7 @@ const serviceCards = [
     id: 'cheatsave',
     h3: 'CheatSave',
     link: '',
-    image: 'Photos/Screen Shot 2023-04-20 at 11.09.16 PM.png',
+    image: 'Photos/cheatsave.png',
     description: `<p><strong>A CheatCode App</strong></p>
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
      eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
@@ -300,6 +300,16 @@ const serviceCards = [
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
      eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
      enim ad minim veniam</p> 
+  `,
+  },
+  {
+    id: 'RE-JATC',
+    h3: 'RE-JATC',
+    link: '',
+    image: 'Photos/NonProfit.png',
+    description: `<p><strong>Admins/Users Portal</strong></p>
+    <p>This App provides a software solution for a non-profit</p>
+    <p></p> 
   `,
   }
 ];

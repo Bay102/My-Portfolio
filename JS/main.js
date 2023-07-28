@@ -55,12 +55,6 @@ const dataFilter = '[data-filter]';
 const servicesData = "[data-item]";
 const active = 'active'; 
 
-// const setActive = (elm, selector) => {
-//    if (document.querySelector(`${selector}.${active}`) !== null) {
-//       document.querySelector(`${selector}.${active}`).classList.remove(active);
-//    } 
-//    elm.classList.add(active)
-// }
 
 const setActive = (elm, selector) => {
    if (document.querySelector(`${selector}.${active}`) !== null) {
@@ -68,9 +62,6 @@ const setActive = (elm, selector) => {
    } 
    elm.classList.add(active)
 }
-
-
-
 
    const filterLink = document.querySelectorAll(dataFilter); //  Node list of all HTML tags with data-filter
    const servicesItems = document.querySelectorAll(servicesData); //  Node list of all HTML tags with data-item
@@ -106,6 +97,11 @@ const setActive = (elm, selector) => {
    //       })
    //    })
    // }
+
+
+
+
+
 
 
 //////////////////////////////////////////////////////////////////////
