@@ -56,13 +56,6 @@ const cardTiles = [
     h3: 'Folio',
   },
   {
-    item: 'full-stack',
-    open: 'bark',
-    image: '/Photos/Screen Shot 2023-01-30 at 6.14.31 AM.png',
-    div: 'Javascript | API',
-    h3: 'Dog Instagram',
-  },
-  {
     item: 'front-end',
     open: 'emoji',
     image: 'Photos/Screen Shot 2023-01-30 at 6.42.21 AM.png',
@@ -75,6 +68,13 @@ const cardTiles = [
     image: 'Photos/Screen Shot 2023-01-31 at 8.16.40 AM.png',
     div: 'React',
     h3: 'Debt Calculator',
+  },
+  {
+    item: 'full-stack',
+    open: 'bark',
+    image: '/Photos/Screen Shot 2023-01-30 at 6.14.31 AM.png',
+    div: 'Javascript | API',
+    h3: 'Dog Instagram',
   },
   {
     item: "back-end",
@@ -130,9 +130,7 @@ const serviceCards = [
     image: 'Photos/NonProfit.png',
     description: `<p><strong>Admins Portal</strong></p>
     <p>This App caters to the everyday sports fanatic</p>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-     eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-     enim ad minim veniam</p> 
+    <p></p> 
   `,
   },
   {

@@ -381,3 +381,19 @@
   font-weight: 700;
   margin-bottom: 0;
 }
+
+.contactWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 100px
+}
+
+.contactWrapper .img-wrapper img{
+  width: 200px;
+}
+
+.contactWrapper a {
+  font-size: 20px;
+  font-style: italic;
+}

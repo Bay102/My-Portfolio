@@ -49,18 +49,9 @@ const marqueeContent = document.querySelector('ul.marquee-content');
 
 rooot.style.setProperty('--marquee-elms', marqueeContent.children.length);
 
-// if (window.innerWidth > 400) {
-  
-//     for (let i = 0; i < elmsDisplayed; i += 1) {
-//       marqueeContent.appendChild(marqueeContent.children[i].cloneNode(true));
-//     }
-  
-// }
-
 if (window.innerWidth > 400) {
-  let i = 0;
-  while (i < elmsDisplayed) {
-    marqueeContent.appendChild(marqueeContent.children[i].cloneNode(true));
-    // i += 1;
-  }
+    for (let i = 0; i < elmsDisplayed; i += 1) {
+      marqueeContent.appendChild(marqueeContent.children[i].cloneNode(true));
+    }
 }
+
