@@ -1,5 +1,12 @@
 const cardTiles = [
   {
+    item: 'front-end',
+    open: 'rothschild',
+    image: 'Photos/rothschild.png',
+    div: 'React | Typescript',
+    h3: 'Rothschild Trust',
+  },
+  {
     item: 'full-stack',
     open: 'RE-JATC',
     image: 'Photos/NonProfit.png',
@@ -35,11 +42,11 @@ const cardTiles = [
     h3: 'Pet Care App',
   },
   {
-    item: "full-stack",
-    open: "cheatsave",
-    image: "Photos/cheatsave.png",
-    div: "React | Typescript | Express | SQLite",
-    h3: "A CheatCode App",
+    item: 'full-stack',
+    open: 'cheatsave',
+    image: 'Photos/cheatsave.png',
+    div: 'React | Typescript | Express | SQLite',
+    h3: 'A CheatCode App',
   },
   {
     item: 'front-end',
@@ -77,27 +84,26 @@ const cardTiles = [
     h3: 'Dog Instagram',
   },
   {
-    item: "back-end",
-    open: "battleship",
-    image: "Photos/Screen Shot 2023-04-20 at 11.09.16 PM.png",
-    div: "Javascript | Terminal Based Game",
-    h3: "Battleship",
+    item: 'back-end',
+    open: 'battleship',
+    image: 'Photos/Screen Shot 2023-04-20 at 11.09.16 PM.png',
+    div: 'Javascript | Terminal Based Game',
+    h3: 'Battleship',
   },
   {
-    item: "full-stack",
-    open: "fanspace",
-    image: "",
-    div: "Mobile App | React Native | Supabase",
-    h3: "FanSpace",
+    item: 'full-stack',
+    open: 'fanspace',
+    image: '',
+    div: 'Mobile App | React Native | Supabase',
+    h3: 'FanSpace',
   },
   {
-    item: "full-stack",
-    open: "npc_members",
-    image: "",
-    div: "React | Typescript | Firebase",
-    h3: "Members Portal | N.P.C",
+    item: 'full-stack',
+    open: 'npc_members',
+    image: '',
+    div: 'React | Typescript | Firebase',
+    h3: 'Members Portal | N.P.C',
   },
-
 ];
 
 const portfolioGrid = document.querySelector('.portfolioTiles');
@@ -123,6 +129,16 @@ for (const tile of cardTiles) {
 const eachCard = document.querySelector('.portfolioPopups');
 
 const serviceCards = [
+  {
+    id: 'rothschild',
+    h3: 'Rothschild Trust',
+    link: '',
+    image: 'Photos/rothschild.png',
+    description: `<p><strong>The RothsChild Trust</strong></p>
+    <p>This App caters to the everyday sports fanatic</p>
+    <p></p> 
+  `,
+  },
   {
     id: 're-jatc',
     h3: 'RE-JATC',
@@ -295,7 +311,7 @@ const serviceCards = [
     <p>This App provides a software solution for a non-profit</p>
     <p></p> 
   `,
-  }
+  },
 ];
 
 const createCards = () => {
