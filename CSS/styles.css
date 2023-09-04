@@ -336,6 +336,8 @@
   opacity: 1;
   width: 300px;
   height: max-content;
+  background: rgba(128, 128, 128, 0.734);
+  border-radius: 10px;
 }
 
 .card-popup-box:before {

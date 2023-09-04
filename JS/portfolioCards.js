@@ -10,7 +10,7 @@ const cardTiles = [
     item: 'full-stack',
     open: 'RE-JATC',
     image: 'Photos/NonProfit.png',
-    div: 'React | Typescript | Firebase',
+    div: 'React | Firebase',
     h3: 'RE-JATC | Admins Portal',
   },
   {
