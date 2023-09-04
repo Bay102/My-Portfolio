@@ -340,8 +340,6 @@
 
 .card-popup-box:before {
   position: absolute;
-  content: '';
-  /* background: var(--bg); */
   background: gray;
   top: 0;
   left: 0;

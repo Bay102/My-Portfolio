@@ -106,4 +106,8 @@
     margin: 15px auto;
     width: 360px;
   }
+
+  .contactWrapper {
+    flex-direction: column;
+  }
 }
