@@ -11,7 +11,6 @@
   margin-top: 2rem;
   padding: 1rem;
   flex-wrap: wrap;
-  
 }
 
 .modal-dialog {
@@ -23,7 +22,7 @@
 }
 
 .modal-body div {
-  font-size: 30px;
+  font-size: 20px;
 }
 
 .contact-text {
@@ -57,7 +56,6 @@
 }
 
 @media (max-width: 600px) {
-
   .header-md {
     font-size: 25px;
   }

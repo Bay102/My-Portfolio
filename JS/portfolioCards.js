@@ -9,7 +9,7 @@ const cardTiles = [
   {
     item: 'full-stack',
     open: 'RE-JATC',
-    image: 'Photos/NonProfit.png',
+    image: 'Photos/solar.png',
     div: 'React | Firebase',
     h3: 'RE-JATC | Admins Portal',
   },
@@ -76,13 +76,13 @@ const cardTiles = [
     div: 'React',
     h3: 'Debt Calculator',
   },
-  {
-    item: 'full-stack',
-    open: 'bark',
-    image: '/Photos/Screen Shot 2023-01-30 at 6.14.31 AM.png',
-    div: 'Javascript | API',
-    h3: 'Dog Instagram',
-  },
+  // {
+  //   item: 'full-stack',
+  //   open: 'bark',
+  //   image: '/Photos/Screen Shot 2023-01-30 at 6.14.31 AM.png',
+  //   div: 'Javascript | API',
+  //   h3: 'Dog Instagram',
+  // },
   {
     item: 'back-end',
     open: 'battleship',
@@ -93,14 +93,14 @@ const cardTiles = [
   {
     item: 'full-stack',
     open: 'fanspace',
-    image: '',
+    image: 'Photos/comingSoon.png',
     div: 'Mobile App | React Native | Supabase',
     h3: 'FanSpace',
   },
   {
     item: 'full-stack',
     open: 'npc_members',
-    image: '',
+    image: 'Photos/comingSoon.png',
     div: 'React | Typescript | Firebase',
     h3: 'Members Portal | N.P.C',
   },
@@ -135,7 +135,7 @@ const serviceCards = [
     link: '',
     image: 'Photos/rothschild.png',
     description: `<p><strong>The RothsChild Trust</strong></p>
-    <p>This App caters to the everyday sports fanatic</p>
+    <p></p>
     <p></p> 
   `,
   },
@@ -143,7 +143,7 @@ const serviceCards = [
     id: 're-jatc',
     h3: 'RE-JATC',
     link: '',
-    image: 'Photos/NonProfit.png',
+    image: 'Photos/solar.png',
     description: `<p><strong>Admins Portal</strong></p>
     <p>This App caters to the everyday sports fanatic</p>
     <p></p> 
@@ -159,20 +159,20 @@ const serviceCards = [
    <p></p> 
    `,
   },
-  {
-    id: 'bark',
-    h3: 'Bark!',
-    link: '',
-    image: 'Photos/Screen Shot 2023-01-30 at 6.14.31 AM.png',
-    description: `<p><strong>Dog Instagram with Api</strong></p>
-   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-   eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-   enim ad minim veniam</p>
-   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-   eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-   enim ad minim veniam</p> 
-   `,
-  },
+  // {
+  //   id: 'bark',
+  //   h3: 'Bark!',
+  //   link: '',
+  //   image: 'Photos/Screen Shot 2023-01-30 at 6.14.31 AM.png',
+  //   description: `<p><strong>Dog Instagram with Api</strong></p>
+  //  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+  //  eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+  //  enim ad minim veniam</p>
+  //  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+  //  eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+  //  enim ad minim veniam</p>
+  //  `,
+  // },
   {
     id: 'taskify',
     h3: 'Taskify ToDo App',
@@ -192,14 +192,7 @@ const serviceCards = [
     h3: 'Pet Care App',
     link: 'https://nancys-pet-care.vercel.app',
     image: 'Photos/Screen Shot 2023-01-30 at 6.51.36 AM.png',
-    description: `<p><strong>Pet Boarding App</strong></p>
-  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-  eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-  enim ad minim veniam</p>
-  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-  eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-  enim ad minim veniam</p> 
-  `,
+    description: `<strong>Pet Boarding App</strong> `,
   },
   {
     id: 'emoji',
@@ -207,12 +200,8 @@ const serviceCards = [
     link: 'https://emoji-slots.vercel.app ',
     image: 'Photos/Screen Shot 2023-01-30 at 6.42.21 AM.png',
     description: `<p><strong>Emoji Slot Machine Concept</strong></p>
-    <p> ipsum dolor sit amet, consectetur adipiscing elit, sed do
-    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-    enim ad minim veniam></p>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-    enim ad minim veniam</p> 
+    <p>></p>
+    <p></p> 
   `,
   },
   {
@@ -222,12 +211,8 @@ const serviceCards = [
     image: 'Photos/Screen Shot 2023-01-31 at 8.16.40 AM.png',
     description: `
     <p><strong>Debt Calculator Built with React</strong></p>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-    enim ad minim veniam,</p>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-    enim ad minim veniam,</p> 
+    <p></p>
+    <p></p> 
   `,
   },
   {
@@ -236,12 +221,8 @@ const serviceCards = [
     link: 'https://front-saas-alpha.vercel.app',
     image: 'Photos/Screen Shot 2023-01-31 at 12.17.08 PM.png',
     description: `<p><strong>Saas Website</strong></p>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-    enim ad minim veniam</p>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-    enim ad minim veniam</p> 
+    <p></p>
+    <p></p> 
   `,
   },
   {
@@ -296,7 +277,7 @@ const serviceCards = [
     id: 'fanspace',
     h3: 'FanSpace',
     link: '',
-    image: '',
+    image: 'Photos/comingSoon.png',
     description: `<p><strong>Sports App</strong></p>
     <p>This App caters to the everyday sports fanatic</p>
     <p></p> 
@@ -306,9 +287,9 @@ const serviceCards = [
     id: 'RE-JATC',
     h3: 'RE-JATC',
     link: '',
-    image: 'Photos/NonProfit.png',
-    description: `<p><strong>Admins/Users Portal</strong></p>
-    <p>This App provides a software solution for a non-profit</p>
+    image: 'Photos/solar.png',
+    description: `<p><strong>RE JATC</strong></p>
+    <p>This App is use daily by the employees / students of a solar apprentice program</p>
     <p></p> 
   `,
   },
@@ -326,16 +307,16 @@ const createCards = () => {
           <i class="fas fa-times" data-service></i>
           </header>
           <h4>
-          <a href="${link}">Click Here to Visit</a>
           </h4>
           <div class="modal-body">
           <div class="img-wrapper">
           <img src="${image}">
           </div>
           <div class="text-wrapper">
-            ${description}
+          ${description}
           </div>
-       </div>
+          </div>
+          <a href="${link}">Click Here to Visit</a>
       </div>
     </div>
       `
