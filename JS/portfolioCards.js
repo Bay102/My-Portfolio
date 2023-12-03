@@ -91,14 +91,14 @@ const cardTiles = [
     h3: 'Battleship',
   },
   {
-    item: 'personal',
+    item: 'comingSoon',
     open: 'fanspace',
     image: 'Photos/comingSoon.png',
     div: 'Mobile App | React Native | Supabase',
     h3: 'FanSpace',
   },
   {
-    item: 'professional',
+    item: 'comingSoon',
     open: 'npc_members',
     image: 'Photos/comingSoon.png',
     div: 'React | Typescript | Firebase',
@@ -132,7 +132,7 @@ const serviceCards = [
   {
     id: 'rothschild',
     h3: 'Rothschild Trust',
-    link: '',
+    link: 'https://rothschildtrust.org',
     image: 'Photos/rothschild.png',
     description: `<p><strong>The RothsChild Trust</strong></p>
     <p></p>
@@ -179,12 +179,8 @@ const serviceCards = [
     link: 'https://taskify-black.vercel.app',
     image: 'Photos/Screen Shot 2023-03-26 at 8.17.16 AM.png',
     description: `<p><strong>Taskify ToDo App</strong></p>
-   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-   eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-   enim ad minim veniam</p>
-   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-   eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-   enim ad minim veniam</p> 
+   <p></p>
+   <p></p> 
    `,
   },
   {
@@ -231,12 +227,8 @@ const serviceCards = [
     link: 'https://folio-chi-eight.vercel.app ',
     image: 'Photos/Screen Shot 2023-01-31 at 8.08.24 PM.png',
     description: `<p><strong>Portfolio Concept</strong></p>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-    enim ad minim veniam</p>
-     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-     eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-     enim ad minim veniam</p> 
+    <p></p>
+     <p></p> 
    `,
   },
   {
@@ -245,12 +237,8 @@ const serviceCards = [
     link: 'https://debt-calculator-y15q.vercel.app',
     image: 'Photos/Screen Shot 2023-02-06 at 2.03.27 PM.png',
     description: `<p><strong>Bank Card Validator</strong></p>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-     eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-     enim ad minim veniam</p>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-     eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-     enim ad minim veniam</p> 
+    <p></p>
+    <p></p> 
   `,
   },
   {
@@ -286,10 +274,10 @@ const serviceCards = [
   {
     id: 'RE-JATC',
     h3: 'RE-JATC',
-    link: '',
+    link: 'https://lrtportal.vercel.app/',
     image: 'Photos/solar.png',
-    description: `<p><strong>RE JATC</strong></p>
-    <p>This App is use daily by the employees / students of a solar apprentice program</p>
+    description: `<p><strong>Renewable Energy Joint Apprenticeship & Training Committee </strong></p>
+    <p>This App was developed for the supervisors / students of REJATC's apprentice program. This app is used daily to keep track of hours and reports of the apprentices of this solar company</p>
     <p></p> 
   `,
   },
