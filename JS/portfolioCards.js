@@ -27,13 +27,13 @@ const cardTiles = [
     div: 'React | Typescript',
     h3: 'Taskify ToDo App',
   },
-  {
-    item: 'professional',
-    open: 'saas',
-    image: 'Photos/Screen Shot 2023-01-31 at 12.17.08 PM.png',
-    div: 'HTML | CSS | Javascript',
-    h3: 'Saas Website',
-  },
+  // {
+  //   item: 'professional',
+  //   open: 'saas',
+  //   image: 'Photos/Screen Shot 2023-01-31 at 12.17.08 PM.png',
+  //   div: 'HTML | CSS | Javascript',
+  //   h3: 'Saas Website',
+  // },
   {
     item: 'professional',
     open: 'nancys',
@@ -48,13 +48,13 @@ const cardTiles = [
     div: 'React | Typescript | Express | SQLite',
     h3: 'A CheatCode App',
   },
-  {
-    item: 'personal',
-    open: 'cardValidator',
-    image: 'Photos/Screen Shot 2023-02-06 at 2.03.27 PM.png',
-    div: 'REACT',
-    h3: 'Credit/Debit Card Validator',
-  },
+  // {
+  //   item: 'personal',
+  //   open: 'cardValidator',
+  //   image: 'Photos/Screen Shot 2023-02-06 at 2.03.27 PM.png',
+  //   div: 'REACT',
+  //   h3: 'Credit/Debit Card Validator',
+  // },
   {
     item: 'professional',
     open: 'folio',
@@ -211,16 +211,16 @@ const serviceCards = [
     <p></p> 
   `,
   },
-  {
-    id: 'saas',
-    h3: 'Saas Website',
-    link: 'https://front-saas-alpha.vercel.app',
-    image: 'Photos/Screen Shot 2023-01-31 at 12.17.08 PM.png',
-    description: `<p><strong>Saas Website</strong></p>
-    <p></p>
-    <p></p> 
-  `,
-  },
+  // {
+  //   id: 'saas',
+  //   h3: 'Saas Website',
+  //   link: 'https://front-saas-alpha.vercel.app',
+  //   image: 'Photos/Screen Shot 2023-01-31 at 12.17.08 PM.png',
+  //   description: `<p><strong>Saas Website</strong></p>
+  //   <p></p>
+  //   <p></p>
+  // `,
+  // },
   {
     id: 'folio',
     h3: 'Folio',
@@ -231,16 +231,16 @@ const serviceCards = [
      <p></p> 
    `,
   },
-  {
-    id: 'cardValidator',
-    h3: 'Card Validator',
-    link: 'https://debt-calculator-y15q.vercel.app',
-    image: 'Photos/Screen Shot 2023-02-06 at 2.03.27 PM.png',
-    description: `<p><strong>Bank Card Validator</strong></p>
-    <p></p>
-    <p></p> 
-  `,
-  },
+  // {
+  //   id: 'cardValidator',
+  //   h3: 'Card Validator',
+  //   link: 'https://debt-calculator-y15q.vercel.app',
+  //   image: 'Photos/Screen Shot 2023-02-06 at 2.03.27 PM.png',
+  //   description: `<p><strong>Bank Card Validator</strong></p>
+  //   <p></p>
+  //   <p></p>
+  // `,
+  // },
   {
     id: 'battleship',
     h3: 'Battleship',
