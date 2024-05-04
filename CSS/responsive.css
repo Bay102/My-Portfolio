@@ -19,6 +19,12 @@
     text-align: center;
   }
 
+  .code-icon {
+    position: fixed;
+    margin-top: 50px;
+    left: 75px;
+  }
+
   .hero-content {
     padding: 0px auto;
     gap: 0;
