@@ -1,5 +1,4 @@
 @media screen and (max-width: 400px) {
-
   .navbar {
     justify-content: center;
     position: fixed;
@@ -34,18 +33,6 @@
 
   .codeeatsleep {
     width: 100%;
-  }
-
-  .code-icon {
-    position: fixed;
-    margin-top: 50px;
-    left: 75px
-  }
-
-  .sub-header {
-    width: 100%;
-    margin: auto;
-    font-size: 22px;
   }
 
   .me {
