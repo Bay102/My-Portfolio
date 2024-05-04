@@ -9,6 +9,9 @@
   display: flex;
   justify-content: flex-end;
   flex-flow: row nowrap;
+  font-family: 'Jersey 25', sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 .main-menu {
@@ -239,9 +242,10 @@
 
 .projectsTitle {
   text-align: center;
-  font-size: 30px;
-  letter-spacing: 2px;
-  font-weight: 900;
+  font-family: 'Jersey 25', sans-serif;
+  font-weight: 400;
+  font-size: 1.875rem;
+  font-style: normal;
 }
 
 .portfolio-grid {
@@ -315,9 +319,9 @@
   z-index: 1;
   padding: 1rem 1rem;
   opacity: 1;
-  width: 300px;
+  width: 100%;
   height: max-content;
-  background: rgba(128, 128, 128, 0.734);
+  background: rgba(104, 103, 103, 0.924);
   border-radius: 10px;
 }
 
@@ -345,7 +349,7 @@
 }
 
 .card-popup-box div {
-  font-size: 0.8125rem;
+  font-size: 0.6725rem;
   line-height: 1.63;
   letter-spacing: 1.63px;
   padding-bottom: 0.5rem;
@@ -357,9 +361,10 @@
 .card-popup-box h3 {
   pointer-events: none;
   color: var(--color-headings);
-  font-size: 1.3125rem;
-  letter-spacing: -0.5px;
-  font-weight: 700;
+  font-size: 1.75rem;
+  font-family: 'Jersey 25', sans-serif;
+  font-weight: 400;
+  font-style: normal;
   margin-bottom: 0;
 }
 

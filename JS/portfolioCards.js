@@ -1,31 +1,45 @@
 const cardTiles = [
   {
-    item: 'professional',
-    open: 'rothschild',
-    image: 'Photos/rothschild.png',
-    div: 'React | Typescript',
-    h3: 'Rothschild Trust',
+    item: 'comingSoon',
+    open: '',
+    image: 'Photos/comingSoon.png',
+    div: 'Find your tech path...',
+    h3: 'TechWayz',
+  },
+  {
+    item: 'comingSoon',
+    open: 'fanspace',
+    image: 'Photos/comingSoon.png',
+    div: 'An App for Season Tickets',
+    h3: 'FanSpace',
   },
   {
     item: 'professional',
     open: 'RE-JATC',
     image: 'Photos/solar.png',
-    div: 'React | Firebase',
-    h3: 'RE-JATC | Admins Portal',
+    div: 'Renewable Energy Joint Apprenticeship & Training Committee',
+    h3: 'Internal App | RA-JATC',
+  },
+  {
+    item: 'professional',
+    open: 'rothschild',
+    image: 'Photos/rothschild.png',
+    div: 'Website for a Trust Company',
+    h3: 'Rothschild Trust',
   },
   {
     item: 'personal',
     open: 'extremeMachines',
     image: 'Photos/ExtremeMachines.png',
-    div: 'React E-Commerce Store | JSON Server',
+    div: 'Mock E-Commerce App',
     h3: 'Extreme Machines',
   },
   {
     item: 'personal',
     open: 'taskify',
     image: 'Photos/Screen Shot 2023-03-26 at 8.17.16 AM.png',
-    div: 'React | Typescript',
-    h3: 'Taskify ToDo App',
+    div: 'ToDo App',
+    h3: 'Taskify ',
   },
   // {
   //   item: 'professional',
@@ -38,15 +52,15 @@ const cardTiles = [
     item: 'professional',
     open: 'nancys',
     image: 'Photos/Screen Shot 2023-01-30 at 6.51.36 AM.png',
-    div: 'Javascript',
-    h3: 'Pet Care App',
+    div: 'Pet Care App',
+    h3: `Nancy's Pet Care`,
   },
   {
     item: 'personal',
     open: 'cheatsave',
     image: 'Photos/cheatsave.png',
-    div: 'React | Typescript | Express | SQLite',
-    h3: 'A CheatCode App',
+    div: 'A CheatCode App',
+    h3: 'Cheat Save',
   },
   // {
   //   item: 'personal',
@@ -62,20 +76,20 @@ const cardTiles = [
     div: 'Javascript',
     h3: 'Folio',
   },
-  {
-    item: 'personal',
-    open: 'emoji',
-    image: 'Photos/Screen Shot 2023-01-30 at 6.42.21 AM.png',
-    div: 'React',
-    h3: 'Slot Machine',
-  },
-  {
-    item: 'personal',
-    open: 'debtCalc',
-    image: 'Photos/Screen Shot 2023-01-31 at 8.16.40 AM.png',
-    div: 'React',
-    h3: 'Debt Calculator',
-  },
+  // {
+  //   item: 'personal',
+  //   open: 'emoji',
+  //   image: 'Photos/Screen Shot 2023-01-30 at 6.42.21 AM.png',
+  //   div: 'React',
+  //   h3: 'Slot Machine',
+  // },
+  // {
+  //   item: 'personal',
+  //   open: 'debtCalc',
+  //   image: 'Photos/Screen Shot 2023-01-31 at 8.16.40 AM.png',
+  //   div: 'React',
+  //   h3: 'Debt Calculator',
+  // },
   // {
   //   item: 'full-stack',
   //   open: 'bark',
@@ -87,29 +101,23 @@ const cardTiles = [
     item: 'personal',
     open: 'battleship',
     image: 'Photos/Screen Shot 2023-04-20 at 11.09.16 PM.png',
-    div: 'Javascript | Terminal Based Game',
+    div: 'Terminal Based Game',
     h3: 'Battleship',
   },
-  {
-    item: 'comingSoon',
-    open: 'fanspace',
-    image: 'Photos/comingSoon.png',
-    div: 'Mobile App | React Native | Supabase',
-    h3: 'FanSpace',
-  },
-  {
-    item: 'comingSoon',
-    open: 'npc_members',
-    image: 'Photos/comingSoon.png',
-    div: 'React | Typescript | Firebase',
-    h3: 'Members Portal | N.P.C',
-  },
-];
 
-const portfolioGrid = document.querySelector('.portfolioTiles');
+  // {
+  //   item: 'comingSoon',
+  //   open: 'npc_members',
+  //   image: 'Photos/comingSoon.png',
+  //   div: 'React | Typescript | Firebase',
+  //   h3: 'Members Portal | N.P.C',
+  // },
+]
+
+const portfolioGrid = document.querySelector('.portfolioTiles')
 
 for (const tile of cardTiles) {
-  const tiles = document.createElement('div');
+  const tiles = document.createElement('div')
   const tileContent = `
     <div class="portfolio-card" data-item="${tile.item}" data-open="${tile.open}">
     <div class="card-body">
@@ -120,13 +128,13 @@ for (const tile of cardTiles) {
       </div>
     </div>
   </div>
-    `;
+    `
 
-  tiles.innerHTML = tileContent;
-  portfolioGrid.appendChild(tiles);
+  tiles.innerHTML = tileContent
+  portfolioGrid.appendChild(tiles)
 }
 
-const eachCard = document.querySelector('.portfolioPopups');
+const eachCard = document.querySelector('.portfolioPopups')
 
 const serviceCards = [
   {
@@ -145,7 +153,7 @@ const serviceCards = [
     link: '',
     image: 'Photos/solar.png',
     description: `<p><strong>Admins Portal</strong></p>
-    <p>This App caters to the everyday sports fanatic</p>
+    <p>Renewable Energy Joint Apprenticeship Training Committee</p>
     <p></p> 
   `,
   },
@@ -183,34 +191,34 @@ const serviceCards = [
    <p></p> 
    `,
   },
-  {
-    id: 'nancys',
-    h3: 'Pet Care App',
-    link: 'https://nancys-pet-care.vercel.app',
-    image: 'Photos/Screen Shot 2023-01-30 at 6.51.36 AM.png',
-    description: `<strong>Pet Boarding App</strong> `,
-  },
-  {
-    id: 'emoji',
-    h3: 'React Game',
-    link: 'https://emoji-slots.vercel.app ',
-    image: 'Photos/Screen Shot 2023-01-30 at 6.42.21 AM.png',
-    description: `<p><strong>Emoji Slot Machine Concept</strong></p>
-    <p>></p>
-    <p></p> 
-  `,
-  },
-  {
-    id: 'debtCalc',
-    h3: 'Debt Calculator',
-    link: '',
-    image: 'Photos/Screen Shot 2023-01-31 at 8.16.40 AM.png',
-    description: `
-    <p><strong>Debt Calculator Built with React</strong></p>
-    <p></p>
-    <p></p> 
-  `,
-  },
+  // {
+  //   id: 'nancys',
+  //   h3: 'Pet Care App',
+  //   link: 'https://nancys-pet-care.vercel.app',
+  //   image: 'Photos/Screen Shot 2023-01-30 at 6.51.36 AM.png',
+  //   description: `<strong>Pet Boarding App</strong> `,
+  // },
+  // {
+  //   id: 'emoji',
+  //   h3: 'React Game',
+  //   link: 'https://emoji-slots.vercel.app ',
+  //   image: 'Photos/Screen Shot 2023-01-30 at 6.42.21 AM.png',
+  //   description: `<p><strong>Emoji Slot Machine Concept</strong></p>
+  //   <p>></p>
+  //   <p></p>
+  // `,
+  // },
+  // {
+  //   id: 'debtCalc',
+  //   h3: 'Debt Calculator',
+  //   link: '',
+  //   image: 'Photos/Screen Shot 2023-01-31 at 8.16.40 AM.png',
+  //   description: `
+  //   <p><strong>Debt Calculator Built with React</strong></p>
+  //   <p></p>
+  //   <p></p>
+  // `,
+  // },
   // {
   //   id: 'saas',
   //   h3: 'Saas Website',
@@ -277,11 +285,11 @@ const serviceCards = [
     link: 'https://lrtportal.vercel.app/',
     image: 'Photos/solar.png',
     description: `<p><strong>Renewable Energy Joint Apprenticeship & Training Committee </strong></p>
-    <p>This App was developed for the supervisors / students of REJATC's apprentice program. This app is used daily to keep track of hours and reports of the apprentices of this solar company</p>
+    <p>This App was developed for the supervisors / apprentices of REJATC's training program. This app is used daily to keep track of hours and reports of the apprentices of this solar company</p>
     <p></p> 
   `,
   },
-];
+]
 
 const createCards = () => {
   const cards = serviceCards
@@ -309,8 +317,8 @@ const createCards = () => {
     </div>
       `
     )
-    .join('');
-  eachCard.innerHTML = cards;
-};
+    .join('')
+  eachCard.innerHTML = cards
+}
 
-createCards();
+createCards()
