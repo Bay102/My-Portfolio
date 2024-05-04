@@ -1,29 +1,28 @@
 @import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
 
-
 .loading-screen {
-   display: none; /* Hide the loading screen by default */
-   background-color: #495fef; /* Set the background color */
-   position: fixed; /* Position the element on the page */
-   top: 0;
-   left: 0;
-   right: 0;
-   bottom: 0;
-   z-index: 9999; /* Set a high z-index to ensure the loading screen is displayed on top of other elements */
- }
- .loadingBay {
-   font-family: copperplate;
-   color: #495fef;
-   font-size: 80px;
- }
+  display: block; /* Hide the loading screen by default */
+  background-color: #495fef; /* Set the background color */
+  position: fixed; /* Position the element on the page */
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 9999; /* Set a high z-index to ensure the loading screen is displayed on top of other elements */
+}
+.loadingBay {
+  font-family: copperplate;
+  color: #495fef;
+  font-size: 80px;
+}
 
- /* Add a loading spinner to the loading screen */
- .loading-screen .spinner {
-   position: absolute;
-    top: 50%;
-   left: 50%;
-   transform: translate(-50%, -50%);
- }
+/* Add a loading spinner to the loading screen */
+.loading-screen .spinner {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
 
 .jt {
   position: relative;
@@ -57,7 +56,7 @@
 .jt__text {
   display: block;
   transform-origin: bottom left;
-  animation: moveIn 2s 0s cubic-bezier(.36,0,.06,1) alternate infinite ;
+  animation: moveIn 2s 0s cubic-bezier(0.36, 0, 0.06, 1) alternate infinite;
 }
 
 .jt__text img {
@@ -71,30 +70,30 @@
   transform: translateY(-0.3em) scaleY(1.1);
 }
 .jt__row:nth-child(3) .jt__text {
-  transform: translateY(-0.5em) scaleY(1.2) ;
+  transform: translateY(-0.5em) scaleY(1.2);
 }
 .jt__row:nth-child(4) .jt__text {
-  transform: translateY(-0.7em) scaleY(1.3) ;
+  transform: translateY(-0.7em) scaleY(1.3);
 }
 .jt__row:nth-child(5) .jt__text {
-  transform: translateY(-0.9em) scaleY(1.4) ;
+  transform: translateY(-0.9em) scaleY(1.4);
 }
 .jt__row:nth-child(6) .jt__text {
-  transform: translateY(-1.1em) scaleY(1.5) ;
+  transform: translateY(-1.1em) scaleY(1.5);
 }
 
 @keyframes moveIn {
-  50%, 100% { 
-    transform: translateY(0em)
+  50%,
+  100% {
+    transform: translateY(0em);
   }
-  0%   { 
-  opacity: 0; 
-  filter: blur(10px);
-  
+  0% {
+    opacity: 0;
+    filter: blur(10px);
   }
-  100% { 
-  opacity: 1; 
-  filter: blur(0px);
+  100% {
+    opacity: 1;
+    filter: blur(0px);
   }
 }
 
@@ -103,12 +102,13 @@
   background: white;
 }
 .debug .jt__row:nth-child(odd) {
-  color:#495fef;
+  color: #495fef;
   background: black;
 }
 
-* { box-sizing: border-box }
-
+* {
+  box-sizing: border-box;
+}
 
 .load-icon {
   font-size: 50px;
@@ -116,8 +116,7 @@
 }
 
 .jt__text i {
-   /* font-family: copperplate; */
+  /* font-family: copperplate; */
   font-size: 150px;
   color: #495fef;
 }
-
